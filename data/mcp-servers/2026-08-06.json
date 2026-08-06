@@ -4,8 +4,8 @@
     "registry": "npm",
     "category": "filesystem",
     "call_count": 3560,
-    "npm_monthly_dl": 2137144,
-    "weekly_delta": 3560
+    "npm_monthly_dl": 2079412,
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-git",
@@ -13,7 +13,7 @@
     "category": "devops",
     "call_count": 2728,
     "npm_monthly_dl": 0,
-    "weekly_delta": 2728
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-github",
@@ -21,15 +21,15 @@
     "category": "devops",
     "call_count": 2536,
     "npm_monthly_dl": 563482,
-    "weekly_delta": 2536
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-memory",
     "registry": "npm",
     "category": "memory",
     "call_count": 1832,
-    "npm_monthly_dl": 441501,
-    "weekly_delta": 1832
+    "npm_monthly_dl": 407394,
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-postgres",
@@ -37,7 +37,7 @@
     "category": "database",
     "call_count": 1134,
     "npm_monthly_dl": 507987,
-    "weekly_delta": 1134
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-puppeteer",
@@ -45,7 +45,7 @@
     "category": "web",
     "call_count": 538,
     "npm_monthly_dl": 129255,
-    "weekly_delta": 538
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-brave-search",
@@ -53,7 +53,7 @@
     "category": "search",
     "call_count": 443,
     "npm_monthly_dl": 108921,
-    "weekly_delta": 443
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-fetch",
@@ -61,7 +61,7 @@
     "category": "web",
     "call_count": 421,
     "npm_monthly_dl": 0,
-    "weekly_delta": 421
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-sqlite",
@@ -69,7 +69,7 @@
     "category": "database",
     "call_count": 223,
     "npm_monthly_dl": 0,
-    "weekly_delta": 223
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-slack",
@@ -77,7 +77,7 @@
     "category": "communication",
     "call_count": 188,
     "npm_monthly_dl": 358779,
-    "weekly_delta": 188
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-sqlite",
@@ -85,7 +85,7 @@
     "category": "database",
     "call_count": 167,
     "npm_monthly_dl": 0,
-    "weekly_delta": 167
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-docker",
@@ -93,7 +93,7 @@
     "category": "devops",
     "call_count": 92,
     "npm_monthly_dl": 0,
-    "weekly_delta": 92
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-postgres",
@@ -101,7 +101,7 @@
     "category": "database",
     "call_count": 76,
     "npm_monthly_dl": 0,
-    "weekly_delta": 76
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-kubernetes",
@@ -109,7 +109,7 @@
     "category": "devops",
     "call_count": 67,
     "npm_monthly_dl": 0,
-    "weekly_delta": 67
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-azure",
@@ -117,7 +117,7 @@
     "category": "cloud",
     "call_count": 58,
     "npm_monthly_dl": 0,
-    "weekly_delta": 58
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-replicate",
@@ -125,7 +125,7 @@
     "category": "ai",
     "call_count": 56,
     "npm_monthly_dl": 0,
-    "weekly_delta": 56
+    "weekly_delta": 0
   },
   {
     "package": "@anthropic-ai/mcp-server-filesystem",
@@ -133,7 +133,7 @@
     "category": "filesystem",
     "call_count": 36,
     "npm_monthly_dl": 0,
-    "weekly_delta": 36
+    "weekly_delta": 0
   },
   {
     "package": "mem0-mcp",
@@ -141,7 +141,7 @@
     "category": "memory",
     "call_count": 36,
     "npm_monthly_dl": 0,
-    "weekly_delta": 36
+    "weekly_delta": 0
   },
   {
     "package": "@modelcontextprotocol/server-google-maps",
@@ -149,7 +149,7 @@
     "category": "web",
     "call_count": 32,
     "npm_monthly_dl": 28688,
-    "weekly_delta": 32
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-redis",
@@ -157,7 +157,7 @@
     "category": "database",
     "call_count": 21,
     "npm_monthly_dl": 0,
-    "weekly_delta": 21
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-sentry",
@@ -165,7 +165,7 @@
     "category": "observability",
     "call_count": 21,
     "npm_monthly_dl": 0,
-    "weekly_delta": 21
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-aws",
@@ -173,7 +173,7 @@
     "category": "cloud",
     "call_count": 17,
     "npm_monthly_dl": 0,
-    "weekly_delta": 17
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-notion",
@@ -181,7 +181,7 @@
     "category": "productivity",
     "call_count": 17,
     "npm_monthly_dl": 0,
-    "weekly_delta": 17
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-jira",
@@ -189,7 +189,7 @@
     "category": "productivity",
     "call_count": 16,
     "npm_monthly_dl": 0,
-    "weekly_delta": 16
+    "weekly_delta": 0
   },
   {
     "package": "@anthropic-ai/mcp-server-github",
@@ -197,7 +197,7 @@
     "category": "devops",
     "call_count": 13,
     "npm_monthly_dl": 0,
-    "weekly_delta": 13
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-youtube",
@@ -205,7 +205,7 @@
     "category": "web",
     "call_count": 11,
     "npm_monthly_dl": 0,
-    "weekly_delta": 11
+    "weekly_delta": 0
   },
   {
     "package": "graphiti-mcp",
@@ -213,7 +213,7 @@
     "category": "memory",
     "call_count": 11,
     "npm_monthly_dl": 0,
-    "weekly_delta": 11
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-linear",
@@ -221,7 +221,7 @@
     "category": "productivity",
     "call_count": 7,
     "npm_monthly_dl": 0,
-    "weekly_delta": 7
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-mongodb",
@@ -229,7 +229,7 @@
     "category": "database",
     "call_count": 5,
     "npm_monthly_dl": 0,
-    "weekly_delta": 5
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-gcp",
@@ -237,7 +237,7 @@
     "category": "cloud",
     "call_count": 4,
     "npm_monthly_dl": 0,
-    "weekly_delta": 4
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-discord",
@@ -245,7 +245,7 @@
     "category": "communication",
     "call_count": 3,
     "npm_monthly_dl": 0,
-    "weekly_delta": 3
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-openai",
@@ -253,7 +253,7 @@
     "category": "ai",
     "call_count": 3,
     "npm_monthly_dl": 0,
-    "weekly_delta": 3
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-confluence",
@@ -261,7 +261,7 @@
     "category": "productivity",
     "call_count": 3,
     "npm_monthly_dl": 0,
-    "weekly_delta": 3
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-huggingface",
@@ -269,7 +269,7 @@
     "category": "ai",
     "call_count": 2,
     "npm_monthly_dl": 0,
-    "weekly_delta": 2
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-gmail",
@@ -277,7 +277,7 @@
     "category": "communication",
     "call_count": 2,
     "npm_monthly_dl": 0,
-    "weekly_delta": 2
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-twitter",
@@ -285,7 +285,7 @@
     "category": "social",
     "call_count": 1,
     "npm_monthly_dl": 0,
-    "weekly_delta": 1
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-google-drive",
@@ -293,7 +293,7 @@
     "category": "productivity",
     "call_count": 1,
     "npm_monthly_dl": 0,
-    "weekly_delta": 1
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-calendar",
@@ -301,7 +301,7 @@
     "category": "productivity",
     "call_count": 1,
     "npm_monthly_dl": 0,
-    "weekly_delta": 1
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-todoist",
@@ -309,7 +309,7 @@
     "category": "productivity",
     "call_count": 1,
     "npm_monthly_dl": 0,
-    "weekly_delta": 1
+    "weekly_delta": 0
   },
   {
     "package": "mcp-server-stripe",
@@ -317,6 +317,6 @@
     "category": "fintech",
     "call_count": 1,
     "npm_monthly_dl": 0,
-    "weekly_delta": 1
+    "weekly_delta": 0
   }
 ]

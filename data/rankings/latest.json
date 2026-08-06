@@ -13,10 +13,10 @@
         "registry": "npm",
         "category": "filesystem",
         "call_count": 3560,
-        "npm_monthly_dl": 2137144,
-        "weekly_delta": 3560,
+        "npm_monthly_dl": 2079412,
+        "weekly_delta": 0,
         "rank": 1,
-        "score": 7.068
+        "score": 7.062
       },
       {
         "package": "@modelcontextprotocol/server-github",
@@ -24,7 +24,7 @@
         "category": "devops",
         "call_count": 2536,
         "npm_monthly_dl": 563482,
-        "weekly_delta": 2536,
+        "weekly_delta": 0,
         "rank": 2,
         "score": 6.614
       },
@@ -33,10 +33,10 @@
         "registry": "npm",
         "category": "memory",
         "call_count": 1832,
-        "npm_monthly_dl": 441501,
-        "weekly_delta": 1832,
+        "npm_monthly_dl": 407394,
+        "weekly_delta": 0,
         "rank": 3,
-        "score": 6.387
+        "score": 6.371
       },
       {
         "package": "@modelcontextprotocol/server-postgres",
@@ -44,7 +44,7 @@
         "category": "database",
         "call_count": 1134,
         "npm_monthly_dl": 507987,
-        "weekly_delta": 1134,
+        "weekly_delta": 0,
         "rank": 4,
         "score": 6.152
       },
@@ -54,7 +54,7 @@
         "category": "web",
         "call_count": 538,
         "npm_monthly_dl": 129255,
-        "weekly_delta": 538,
+        "weekly_delta": 0,
         "rank": 5,
         "score": 5.468
       },
@@ -64,7 +64,7 @@
         "category": "search",
         "call_count": 443,
         "npm_monthly_dl": 108921,
-        "weekly_delta": 443,
+        "weekly_delta": 0,
         "rank": 6,
         "score": 5.329
       },
@@ -74,7 +74,7 @@
         "category": "communication",
         "call_count": 188,
         "npm_monthly_dl": 358779,
-        "weekly_delta": 188,
+        "weekly_delta": 0,
         "rank": 7,
         "score": 5.096
       },
@@ -84,7 +84,7 @@
         "category": "devops",
         "call_count": 2728,
         "npm_monthly_dl": 0,
-        "weekly_delta": 2728,
+        "weekly_delta": 0,
         "rank": 8,
         "score": 4.006
       },
@@ -94,7 +94,7 @@
         "category": "web",
         "call_count": 32,
         "npm_monthly_dl": 28688,
-        "weekly_delta": 32,
+        "weekly_delta": 0,
         "rank": 9,
         "score": 3.659
       },
@@ -104,7 +104,7 @@
         "category": "web",
         "call_count": 421,
         "npm_monthly_dl": 0,
-        "weekly_delta": 421,
+        "weekly_delta": 0,
         "rank": 10,
         "score": 2.982
       },
@@ -114,7 +114,7 @@
         "category": "database",
         "call_count": 223,
         "npm_monthly_dl": 0,
-        "weekly_delta": 223,
+        "weekly_delta": 0,
         "rank": 11,
         "score": 2.635
       },
@@ -124,7 +124,7 @@
         "category": "database",
         "call_count": 167,
         "npm_monthly_dl": 0,
-        "weekly_delta": 167,
+        "weekly_delta": 0,
         "rank": 12,
         "score": 2.475
       },
@@ -134,7 +134,7 @@
         "category": "devops",
         "call_count": 92,
         "npm_monthly_dl": 0,
-        "weekly_delta": 92,
+        "weekly_delta": 0,
         "rank": 13,
         "score": 2.158
       },
@@ -144,7 +144,7 @@
         "category": "database",
         "call_count": 76,
         "npm_monthly_dl": 0,
-        "weekly_delta": 76,
+        "weekly_delta": 0,
         "rank": 14,
         "score": 2.049
       },
@@ -154,7 +154,7 @@
         "category": "devops",
         "call_count": 67,
         "npm_monthly_dl": 0,
-        "weekly_delta": 67,
+        "weekly_delta": 0,
         "rank": 15,
         "score": 1.98
       },
@@ -164,7 +164,7 @@
         "category": "cloud",
         "call_count": 58,
         "npm_monthly_dl": 0,
-        "weekly_delta": 58,
+        "weekly_delta": 0,
         "rank": 16,
         "score": 1.9
       },
@@ -174,7 +174,7 @@
         "category": "ai",
         "call_count": 56,
         "npm_monthly_dl": 0,
-        "weekly_delta": 56,
+        "weekly_delta": 0,
         "rank": 17,
         "score": 1.886
       },
@@ -184,7 +184,7 @@
         "category": "filesystem",
         "call_count": 36,
         "npm_monthly_dl": 0,
-        "weekly_delta": 36,
+        "weekly_delta": 0,
         "rank": 18,
         "score": 1.652
       },
@@ -194,7 +194,7 @@
         "category": "memory",
         "call_count": 36,
         "npm_monthly_dl": 0,
-        "weekly_delta": 36,
+        "weekly_delta": 0,
         "rank": 19,
         "score": 1.652
       },
@@ -204,7 +204,7 @@
         "category": "database",
         "call_count": 21,
         "npm_monthly_dl": 0,
-        "weekly_delta": 21,
+        "weekly_delta": 0,
         "rank": 20,
         "score": 1.401
       },
@@ -214,7 +214,7 @@
         "category": "observability",
         "call_count": 21,
         "npm_monthly_dl": 0,
-        "weekly_delta": 21,
+        "weekly_delta": 0,
         "rank": 21,
         "score": 1.401
       },
@@ -224,7 +224,7 @@
         "category": "cloud",
         "call_count": 17,
         "npm_monthly_dl": 0,
-        "weekly_delta": 17,
+        "weekly_delta": 0,
         "rank": 22,
         "score": 1.26
       },
@@ -234,7 +234,7 @@
         "category": "productivity",
         "call_count": 17,
         "npm_monthly_dl": 0,
-        "weekly_delta": 17,
+        "weekly_delta": 0,
         "rank": 23,
         "score": 1.26
       },
@@ -244,7 +244,7 @@
         "category": "productivity",
         "call_count": 16,
         "npm_monthly_dl": 0,
-        "weekly_delta": 16,
+        "weekly_delta": 0,
         "rank": 24,
         "score": 1.237
       },
@@ -254,7 +254,7 @@
         "category": "devops",
         "call_count": 13,
         "npm_monthly_dl": 0,
-        "weekly_delta": 13,
+        "weekly_delta": 0,
         "rank": 25,
         "score": 1.16
       },
@@ -264,7 +264,7 @@
         "category": "web",
         "call_count": 11,
         "npm_monthly_dl": 0,
-        "weekly_delta": 11,
+        "weekly_delta": 0,
         "rank": 26,
         "score": 1.098
       },
@@ -274,7 +274,7 @@
         "category": "memory",
         "call_count": 11,
         "npm_monthly_dl": 0,
-        "weekly_delta": 11,
+        "weekly_delta": 0,
         "rank": 27,
         "score": 1.098
       },
@@ -284,7 +284,7 @@
         "category": "productivity",
         "call_count": 7,
         "npm_monthly_dl": 0,
-        "weekly_delta": 7,
+        "weekly_delta": 0,
         "rank": 28,
         "score": 0.832
       },
@@ -294,7 +294,7 @@
         "category": "database",
         "call_count": 5,
         "npm_monthly_dl": 0,
-        "weekly_delta": 5,
+        "weekly_delta": 0,
         "rank": 29,
         "score": 0.717
       },
@@ -304,47 +304,35 @@
         "category": "cloud",
         "call_count": 4,
         "npm_monthly_dl": 0,
-        "weekly_delta": 4,
+        "weekly_delta": 0,
         "rank": 30,
         "score": 0.644
       }
     ],
     "agent_skills": [
       {
-        "repo": "langgenius/dify",
-        "stars": 151535,
-        "forks": 23923,
-        "dependents": 28608,
-        "last_commit": "2026-08-06T10:34:56Z",
-        "delta_stars": 151535,
-        "delta_dependents": 28608,
-        "signal": "code-search manifest reference count",
-        "rank": 1,
-        "score": 10.976
-      },
-      {
         "repo": "vercel/ai",
         "stars": 26041,
         "forks": 4913,
         "dependents": 13631488,
-        "last_commit": "2026-08-06T09:56:26Z",
+        "last_commit": "2026-08-06T10:48:43Z",
         "delta_stars": 0,
         "delta_dependents": 0,
         "signal": "code-search manifest reference count",
-        "rank": 2,
+        "rank": 1,
         "score": 9.992
       },
       {
         "repo": "langchain-ai/langchain",
-        "stars": 143543,
+        "stars": 143545,
         "forks": 23917,
         "dependents": 340480,
         "last_commit": "2026-08-06T08:59:23Z",
-        "delta_stars": 1,
+        "delta_stars": 2,
         "delta_dependents": 0,
         "signal": "code-search manifest reference count",
-        "rank": 3,
-        "score": 9.582
+        "rank": 2,
+        "score": 9.663
       },
       {
         "repo": "jina-ai/serve",
@@ -355,20 +343,32 @@
         "delta_stars": 0,
         "delta_dependents": 0,
         "signal": "code-search manifest reference count",
-        "rank": 4,
+        "rank": 3,
         "score": 9.406
       },
       {
+        "repo": "langgenius/dify",
+        "stars": 151536,
+        "forks": 23923,
+        "dependents": 28608,
+        "last_commit": "2026-08-06T10:53:20Z",
+        "delta_stars": 1,
+        "delta_dependents": 0,
+        "signal": "code-search manifest reference count",
+        "rank": 4,
+        "score": 8.729
+      },
+      {
         "repo": "microsoft/autogen",
-        "stars": 60264,
+        "stars": 60265,
         "forks": 9083,
         "dependents": 66688,
         "last_commit": "2026-04-15T11:59:09Z",
-        "delta_stars": 0,
+        "delta_stars": 1,
         "delta_dependents": 0,
         "signal": "code-search manifest reference count",
         "rank": 5,
-        "score": 8.462
+        "score": 8.601
       },
       {
         "repo": "langchain-ai/langgraph",
@@ -387,7 +387,7 @@
         "stars": 41601,
         "forks": 5741,
         "dependents": 50816,
-        "last_commit": "2026-08-06T10:39:23Z",
+        "last_commit": "2026-08-06T10:44:20Z",
         "delta_stars": 0,
         "delta_dependents": 0,
         "signal": "code-search manifest reference count",
@@ -396,20 +396,20 @@
       },
       {
         "repo": "crewAIInc/crewAI",
-        "stars": 56689,
+        "stars": 56690,
         "forks": 8084,
         "dependents": 16448,
         "last_commit": "2026-08-06T00:02:49Z",
-        "delta_stars": 0,
+        "delta_stars": 1,
         "delta_dependents": 0,
         "signal": "code-search manifest reference count",
         "rank": 8,
-        "score": 7.934
+        "score": 8.072
       },
       {
         "repo": "run-llama/llama_index",
         "stars": 51416,
-        "forks": 7880,
+        "forks": 7881,
         "dependents": 10352,
         "last_commit": "2026-08-04T16:33:38Z",
         "delta_stars": 0,
@@ -421,7 +421,7 @@
       {
         "repo": "modelcontextprotocol/python-sdk",
         "stars": 23905,
-        "forks": 3745,
+        "forks": 3746,
         "dependents": 12512,
         "last_commit": "2026-08-05T00:51:13Z",
         "delta_stars": 0,
@@ -432,7 +432,7 @@
       },
       {
         "repo": "mastra-ai/mastra",
-        "stars": 26973,
+        "stars": 26974,
         "forks": 2577,
         "dependents": 5600,
         "last_commit": "2026-08-06T10:41:22Z",
@@ -457,14 +457,14 @@
       {
         "repo": "modelcontextprotocol/typescript-sdk",
         "stars": 13084,
-        "forks": 2050,
+        "forks": 2051,
         "dependents": 2408,
-        "last_commit": "2026-08-06T10:37:51Z",
+        "last_commit": "2026-08-06T10:51:31Z",
         "delta_stars": 0,
         "delta_dependents": 0,
         "signal": "code-search manifest reference count",
         "rank": 13,
-        "score": 6.62
+        "score": 6.621
       },
       {
         "repo": "openai/openai-agents-python",

@@ -4,7 +4,7 @@
     "stars": 26041,
     "forks": 4913,
     "dependents": 13631488,
-    "last_commit": "2026-08-06T09:56:26Z",
+    "last_commit": "2026-08-06T10:48:43Z",
     "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
@@ -21,11 +21,11 @@
   },
   {
     "repo": "langchain-ai/langchain",
-    "stars": 143543,
+    "stars": 143545,
     "forks": 23917,
     "dependents": 340480,
     "last_commit": "2026-08-06T08:59:23Z",
-    "delta_stars": 1,
+    "delta_stars": 2,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -41,11 +41,11 @@
   },
   {
     "repo": "microsoft/autogen",
-    "stars": 60264,
+    "stars": 60265,
     "forks": 9083,
     "dependents": 66688,
     "last_commit": "2026-04-15T11:59:09Z",
-    "delta_stars": 0,
+    "delta_stars": 1,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -54,35 +54,35 @@
     "stars": 41601,
     "forks": 5741,
     "dependents": 50816,
-    "last_commit": "2026-08-06T10:39:23Z",
+    "last_commit": "2026-08-06T10:44:20Z",
     "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
   {
     "repo": "langgenius/dify",
-    "stars": 151535,
+    "stars": 151536,
     "forks": 23923,
     "dependents": 28608,
-    "last_commit": "2026-08-06T10:34:56Z",
-    "delta_stars": 151535,
-    "delta_dependents": 28608,
+    "last_commit": "2026-08-06T10:53:20Z",
+    "delta_stars": 1,
+    "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
   {
     "repo": "crewAIInc/crewAI",
-    "stars": 56689,
+    "stars": 56690,
     "forks": 8084,
     "dependents": 16448,
     "last_commit": "2026-08-06T00:02:49Z",
-    "delta_stars": 0,
+    "delta_stars": 1,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
   {
     "repo": "modelcontextprotocol/python-sdk",
     "stars": 23905,
-    "forks": 3745,
+    "forks": 3746,
     "dependents": 12512,
     "last_commit": "2026-08-05T00:51:13Z",
     "delta_stars": 0,
@@ -92,7 +92,7 @@
   {
     "repo": "run-llama/llama_index",
     "stars": 51416,
-    "forks": 7880,
+    "forks": 7881,
     "dependents": 10352,
     "last_commit": "2026-08-04T16:33:38Z",
     "delta_stars": 0,
@@ -111,7 +111,7 @@
   },
   {
     "repo": "mastra-ai/mastra",
-    "stars": 26973,
+    "stars": 26974,
     "forks": 2577,
     "dependents": 5600,
     "last_commit": "2026-08-06T10:41:22Z",
@@ -122,9 +122,9 @@
   {
     "repo": "modelcontextprotocol/typescript-sdk",
     "stars": 13084,
-    "forks": 2050,
+    "forks": 2051,
     "dependents": 2408,
-    "last_commit": "2026-08-06T10:37:51Z",
+    "last_commit": "2026-08-06T10:51:31Z",
     "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
