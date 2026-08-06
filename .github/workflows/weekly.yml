@@ -1,0 +1,82 @@
+name: Weekly AI-Call Rank Update
+
+on:
+  schedule:
+    # Every Monday 02:00 UTC
+    - cron: "0 2 * * 1"
+  workflow_dispatch:  # allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # need full history for data/ git log
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run fetch_mcp.py
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python scripts/fetch_mcp.py
+
+      - name: Run fetch_skills.py
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python scripts/fetch_skills.py
+
+      - name: Run compose.py
+        run: python scripts/compose.py
+
+      - name: Commit & push data + site tables
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes — nothing to commit."
+          else
+            # Regenerate the site tables only when data actually changed,
+            # so the weekly commit stays meaningful.
+            python scripts/compose_site.py
+            git add site/mcp.md site/skills.md
+            git commit -m "chore(data): weekly update $(date -u +%F)"
+            git push
+          fi
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build VitePress site
+        run: |
+          cd site
+          npm install
+          npm run build
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/.vitepress/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
