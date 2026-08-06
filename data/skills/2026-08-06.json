@@ -1,41 +1,21 @@
 [
   {
-    "repo": "vercel/ai",
-    "stars": 26041,
-    "forks": 4913,
-    "dependents": 13631488,
-    "last_commit": "2026-08-06T10:48:43Z",
-    "delta_stars": 0,
-    "delta_dependents": 0,
-    "signal": "code-search manifest reference count"
-  },
-  {
-    "repo": "jina-ai/serve",
-    "stars": 21862,
-    "forks": 2242,
-    "dependents": 4538368,
-    "last_commit": "2025-03-24T13:59:54Z",
-    "delta_stars": 0,
-    "delta_dependents": 0,
-    "signal": "code-search manifest reference count"
-  },
-  {
     "repo": "langchain-ai/langchain",
     "stars": 143545,
     "forks": 23917,
     "dependents": 340480,
     "last_commit": "2026-08-06T08:59:23Z",
-    "delta_stars": 2,
+    "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
   {
     "repo": "langchain-ai/langgraph",
-    "stars": 39023,
+    "stars": 39025,
     "forks": 6570,
     "dependents": 108288,
     "last_commit": "2026-08-06T03:42:36Z",
-    "delta_stars": 0,
+    "delta_stars": 1,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -45,7 +25,7 @@
     "forks": 9083,
     "dependents": 66688,
     "last_commit": "2026-04-15T11:59:09Z",
-    "delta_stars": 1,
+    "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -54,18 +34,8 @@
     "stars": 41601,
     "forks": 5741,
     "dependents": 50816,
-    "last_commit": "2026-08-06T10:44:20Z",
+    "last_commit": "2026-08-06T11:06:30Z",
     "delta_stars": 0,
-    "delta_dependents": 0,
-    "signal": "code-search manifest reference count"
-  },
-  {
-    "repo": "langgenius/dify",
-    "stars": 151536,
-    "forks": 23923,
-    "dependents": 28608,
-    "last_commit": "2026-08-06T10:53:20Z",
-    "delta_stars": 1,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -75,7 +45,7 @@
     "forks": 8084,
     "dependents": 16448,
     "last_commit": "2026-08-06T00:02:49Z",
-    "delta_stars": 1,
+    "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -91,7 +61,7 @@
   },
   {
     "repo": "run-llama/llama_index",
-    "stars": 51416,
+    "stars": 51418,
     "forks": 7881,
     "dependents": 10352,
     "last_commit": "2026-08-04T16:33:38Z",
@@ -111,11 +81,11 @@
   },
   {
     "repo": "mastra-ai/mastra",
-    "stars": 26974,
+    "stars": 26975,
     "forks": 2577,
     "dependents": 5600,
-    "last_commit": "2026-08-06T10:41:22Z",
-    "delta_stars": 1,
+    "last_commit": "2026-08-06T11:17:37Z",
+    "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -125,6 +95,16 @@
     "forks": 2051,
     "dependents": 2408,
     "last_commit": "2026-08-06T10:51:31Z",
+    "delta_stars": 0,
+    "delta_dependents": 0,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "vercel/ai",
+    "stars": 26042,
+    "forks": 4914,
+    "dependents": 1058,
+    "last_commit": "2026-08-06T11:11:14Z",
     "delta_stars": 0,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
@@ -140,12 +120,22 @@
     "signal": "code-search manifest reference count"
   },
   {
+    "repo": "langgenius/dify",
+    "stars": 151540,
+    "forks": 23923,
+    "dependents": 78,
+    "last_commit": "2026-08-06T11:13:05Z",
+    "delta_stars": 1,
+    "delta_dependents": -28530,
+    "signal": "code-search manifest reference count"
+  },
+  {
     "repo": "anthropics/skills",
-    "stars": 166596,
+    "stars": 166598,
     "forks": 19837,
     "dependents": 1,
     "last_commit": "2026-07-24T20:12:36Z",
-    "delta_stars": 0,
+    "delta_stars": 1,
     "delta_dependents": 0,
     "signal": "code-search manifest reference count"
   },
@@ -157,6 +147,16 @@
     "last_commit": "2026-03-31T13:26:56Z",
     "delta_stars": 0,
     "delta_dependents": 0,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "jina-ai/serve",
+    "stars": 21862,
+    "forks": 2242,
+    "dependents": 0,
+    "last_commit": "2025-03-24T13:59:54Z",
+    "delta_stars": 0,
+    "delta_dependents": -4538368,
     "signal": "code-search manifest reference count"
   }
 ]

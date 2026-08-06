@@ -37,7 +37,7 @@ HISTORY   = sorted(DATA_DIR.glob("*.json"))[-4:]
 
 import sys
 sys.path.insert(0, str(REPO_ROOT / "scripts" / "lib"))
-from mcp_packages import SKILL_REPOS, AGENT_FRIENDLY_LIBS
+from mcp_packages import SKILL_REPOS, AGENT_FRIENDLY_LIBS, MANIFEST_QUERY_BY_FULL_PATH
 
 # Dedup, preserve order
 ALL_REPOS = list(dict.fromkeys(SKILL_REPOS + AGENT_FRIENDLY_LIBS))
@@ -88,6 +88,11 @@ def references_for(full: str) -> int:
     if full in SKILL_REPOS:
         # Agent skills are wired into mcp.json / agent configs by full path
         return search_reference_count(f'"{full}" filename:mcp.json')
+    if full in MANIFEST_QUERY_BY_FULL_PATH:
+        # Generic short names ("ai", "serve", "dify") match noise in every
+        # manifest (verified: '"ai" filename:package.json' ≈ 13M). The
+        # owner-scoped path is a tiny but trustworthy signal instead.
+        return search_reference_count(f'"{full}" {MANIFEST_OR}')
     return search_reference_count(f'"{name}" {MANIFEST_OR}')
 
 

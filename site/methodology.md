@@ -86,7 +86,7 @@ GitHub Actions runs `fetch_mcp.py` + `fetch_skills.py` + `compose.py` every **Mo
 |---|---|
 | Code search sees only public repos | Acceptable; we are a public-data project |
 | Search counts are repo-name based, not package-id based | Fine-grained `dependency:` search once it covers manifests broadly |
-| Very generic repo names (`ai`, `serve`) over-count | Query `"<owner>/<name>"` for names shorter than 4 chars, or weight down |
+| Very generic repo names (`ai`, `serve`, `dify`) over-count | Maintained allowlist `MANIFEST_QUERY_BY_FULL_PATH` — those repos are queried as `"<owner>/<name>"` instead of the bare name |
 | No de-duplication of template-influenced counts | Add repo-age + star-velocity filter |
 | NPM-only (no PyPI download signal yet) | Add `https://pypistats.org/api/` in v0.2 |
 | Skill list is curated, not discovered | Use code search `"from anthropics.skills"` to auto-discover |

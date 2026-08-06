@@ -69,6 +69,16 @@ MCP_PACKAGES = [
     ("graphiti-mcp",                           "pypi","memory"),
 ]
 
+# Repos whose bare name is too generic to search by manifest reference.
+# Verified: '"ai" filename:package.json' ≈ 13M, '"serve" …' ≈ 4.5M,
+# '"dify" …' ≈ 25k — mostly noise. For these we query "<owner>/<name>"
+# instead: small but trustworthy counts (e.g. langgenius/dify → 78).
+MANIFEST_QUERY_BY_FULL_PATH = {
+    "vercel/ai",
+    "jina-ai/serve",
+    "langgenius/dify",
+}
+
 # Repos under anthropics/skills that we track as "Agent Skills"
 SKILL_REPOS = [
     "anthropics/skills",

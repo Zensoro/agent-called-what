@@ -42,6 +42,9 @@ jobs:
       - name: Run compose.py
         run: python scripts/compose.py
 
+      - name: Validate outputs before commit
+        run: python scripts/check.py
+
       - name: Commit & push data + site tables
         run: |
           git config user.name  "github-actions[bot]"
