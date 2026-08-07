@@ -57,6 +57,8 @@ jobs:
             # so the weekly commit stays meaningful.
             python scripts/compose_site.py
             git add site/mcp.md site/skills.md
+            python scripts/update_readme_snapshot.py
+            git add README.md README.zh-CN.md
             git commit -m "chore(data): weekly update $(date -u +%F)"
             git push
           fi
