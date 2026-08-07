@@ -1,8 +1,39 @@
 # agent-called-what
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Weekly Update](https://img.shields.io/badge/update-weekly-blue.svg)](.github/workflows/weekly.yml)
+[![Site](https://img.shields.io/badge/site-GitHub%20Pages-8A2BE2)](https://zensoro.github.io/agent-called-what/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 > What do AI agents actually call on GitHub? Not star-based — **behavior-based**.
 
 Every other "AI agent ranking" is just a star counter with extra steps. This repo measures the thing that actually matters: **which MCP servers, agent skills, and libraries are being wired up and invoked by real agents in the wild**, inferred from public `mcp.json` configurations and repository dependency graphs.
+
+## 📊 Live snapshot — 2026-08-06
+
+The full dataset updates **every Monday** via GitHub Actions. Latest Top 5:
+
+**🔌 MCP servers**
+
+| # | Package | `mcp.json` call count | npm downloads/mo | Score |
+|---|---|---|---|---|
+| 1 | `@modelcontextprotocol/server-filesystem` | 3,560 | 2,079,412 | 7.06 |
+| 2 | `@modelcontextprotocol/server-github` | 2,536 | 563,482 | 6.61 |
+| 3 | `@modelcontextprotocol/server-memory` | 1,832 | 407,394 | 6.37 |
+| 4 | `@modelcontextprotocol/server-postgres` | 1,134 | 507,987 | 6.15 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | 538 | 129,255 | 5.47 |
+
+**🧠 Agent skills & libraries**
+
+| # | Repo | Dependents | Stars | Score |
+|---|---|---|---|---|
+| 1 | `langchain-ai/langchain` | 340,480 | 143,545 | 9.44 |
+| 2 | `langchain-ai/langgraph` | 108,288 | 39,025 | 8.60 |
+| 3 | `microsoft/autogen` | 66,688 | 60,265 | 8.46 |
+| 4 | `agno-agi/agno` | 50,816 | 41,601 | 8.18 |
+| 5 | `crewAIInc/crewAI` | 16,448 | 56,690 | 7.93 |
+
+Full rankings (Top 30 MCP + all skills): [`data/rankings/latest.json`](data/rankings/latest.json) · [interactive site](https://zensoro.github.io/agent-called-what/)
 
 ## How it works
 
@@ -32,6 +63,8 @@ python scripts/fetch_skills.py     # ~2-3 min
 python scripts/compose.py          # merges → data/rankings/latest.json
 ```
 
+No dependencies beyond the Python stdlib. No API fees. Results are committed as versioned JSON.
+
 ## Project layout
 
 ```
@@ -47,7 +80,7 @@ agent-called-what/
 │   ├── fetch_mcp.py
 │   ├── fetch_skills.py
 │   └── compose.py
-├── site/                           # VitePress / Nextra static site
+├── site/                           # VitePress static site (GitHub Pages)
 ├── .github/workflows/weekly.yml    # auto-runs every Monday 02:00 UTC
 └── README.md
 ```

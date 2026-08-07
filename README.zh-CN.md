@@ -1,8 +1,39 @@
 # agent-called-what
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Weekly Update](https://img.shields.io/badge/update-weekly-blue.svg)](.github/workflows/weekly.yml)
+[![Site](https://img.shields.io/badge/site-GitHub%20Pages-8A2BE2)](https://zensoro.github.io/agent-called-what/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 > AI 在 GitHub 上到底调了什么？不是 star 榜，**是行为榜**。
 
 市面上所有"AI Agent 排行榜"本质都是 star 计数器套壳。本仓库衡量的是真正重要的事：**真实的 AI Agent 在野外实际接入、调用了哪些 MCP Server、Skill 和库**——证据来自公开的 `mcp.json` 配置文件和仓库依赖图。
+
+## 📊 最新快照 — 2026-08-06
+
+数据集每周一由 GitHub Actions 自动更新。当前 Top 5：
+
+**🔌 MCP 服务器**
+
+| # | 包 | `mcp.json` 引用数 | npm 月下载 | 得分 |
+|---|---|---|---|---|
+| 1 | `@modelcontextprotocol/server-filesystem` | 3,560 | 2,079,412 | 7.06 |
+| 2 | `@modelcontextprotocol/server-github` | 2,536 | 563,482 | 6.61 |
+| 3 | `@modelcontextprotocol/server-memory` | 1,832 | 407,394 | 6.37 |
+| 4 | `@modelcontextprotocol/server-postgres` | 1,134 | 507,987 | 6.15 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | 538 | 129,255 | 5.47 |
+
+**🧠 Agent Skill 与库**
+
+| # | 仓库 | 依赖数 | Star | 得分 |
+|---|---|---|---|---|
+| 1 | `langchain-ai/langchain` | 340,480 | 143,545 | 9.44 |
+| 2 | `langchain-ai/langgraph` | 108,288 | 39,025 | 8.60 |
+| 3 | `microsoft/autogen` | 66,688 | 60,265 | 8.46 |
+| 4 | `agno-agi/agno` | 50,816 | 41,601 | 8.18 |
+| 5 | `crewAIInc/crewAI` | 16,448 | 56,690 | 7.93 |
+
+完整榜单（MCP Top 30 + 全部 Skill）：[`data/rankings/latest.json`](data/rankings/latest.json) · [在线站点](https://zensoro.github.io/agent-called-what/)
 
 ## 原理
 
@@ -25,6 +56,8 @@ python scripts/fetch_mcp.py  # 40 个包约 6-9 分钟（受 10 次/分钟限制
 python scripts/fetch_skills.py
 python scripts/compose.py    # 合并 → data/rankings/latest.json
 ```
+
+除 Python 标准库外零依赖、零 API 费用，结果以版本化 JSON 提交入库。
 
 ## 为什么开源
 
