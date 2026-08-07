@@ -4,7 +4,7 @@ title: MCP Servers Ranking
 
 # 🔌 MCP Servers — Behavior-Based Ranking
 
-_Updated: 2026-08-06_
+_Updated: 2026-08-07_
 
 ## How to read this table
 

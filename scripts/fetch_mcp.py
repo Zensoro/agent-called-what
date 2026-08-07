@@ -104,8 +104,12 @@ def main():
         # NPM downloads (only meaningful for npm packages)
         dl = npm_monthly_downloads(pkg) if registry == "npm" else 0
 
-        prev_count = prev.get(pkg, {}).get("call_count", 0)
-        delta = count - prev_count
+        prev_row = prev.get(pkg, {})
+        is_new = pkg not in prev
+        # Newly added seed package: its "delta" vs nothing is meaningless,
+        # so we record 0 and mark it for the newcomers list instead.
+        prev_count = prev_row.get("call_count", 0) if not is_new else 0
+        delta = 0 if is_new else count - prev_count
 
         row = {
             "package": pkg,
@@ -114,6 +118,7 @@ def main():
             "call_count": count,
             "npm_monthly_dl": dl,
             "weekly_delta": delta,
+            "is_new": is_new,
         }
         rows.append(row)
         print(f"  [{i:2d}/{total}] {pkg:<45} calls={count:>5}  npm_dl={dl:>8}  Δ={delta:+d}")

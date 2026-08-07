@@ -27,11 +27,12 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA = REPO_ROOT / "data"
 RANK_DIR = DATA / "rankings"
 
-# Exclude: the .env.example template and the Actions workflow, which
-# legitimately contain `GH_PAT` (as ${{ secrets.GH_PAT }}).
+# Exclude: the .env.example template, the Actions workflow, and this file
+# itself (its docstring documents the pattern `GH_PAT=<token>`).
 SKIP_FOR_SECRET = {
     REPO_ROOT / ".env.example",
     REPO_ROOT / ".github" / "workflows" / "weekly.yml",
+    REPO_ROOT / "scripts" / "check.py",
 }
 SECRET_RE = re.compile(r"GH_PAT\s*=\s*([^$\s][^\s]*)")
 
@@ -134,6 +135,20 @@ def main() -> None:
                 ok_rows = all(isinstance(r, dict) and "rank" in r and "score" in r
                               for r in rows_tbl)
                 check(ok_rows, f"every {tbl} row has rank+score ({len(rows_tbl)} rows)")
+
+            trends = d.get("trends", {})
+            check("trends" in d, "latest.json has `trends`")
+            if isinstance(trends, dict):
+                for key in ("movers", "declining", "newcomers"):
+                    check(isinstance(trends.get(key), list),
+                          f"trends.{key} is a list")
+                ok_entry = all(
+                    isinstance(e, dict)
+                    and e.get("table") in ("mcp_servers", "agent_skills")
+                    and "name" in e
+                    for e in trends.get("movers", [])
+                )
+                check(ok_entry, f"every trends.movers entry has table+name ({len(trends.get('movers', []))} entries)")
 
     # 4. Secrets
     check_secrets()

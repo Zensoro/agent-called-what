@@ -9,29 +9,31 @@
 
 市面上所有"AI Agent 排行榜"本质都是 star 计数器套壳。本仓库衡量的是真正重要的事：**真实的 AI Agent 在野外实际接入、调用了哪些 MCP Server、Skill 和库**——证据来自公开的 `mcp.json` 配置文件和仓库依赖图。
 
-## 📊 最新快照 — 2026-08-06
+## 📊 最新快照 — 2026-08-07
 
 数据集每周一由 GitHub Actions 自动更新。当前 Top 5：
 
 **🔌 MCP 服务器**
 
-| # | 包 | `mcp.json` 引用数 | npm 月下载 | 得分 |
-|---|---|---|---|---|
-| 1 | `@modelcontextprotocol/server-filesystem` | 3,560 | 2,079,412 | 7.06 |
-| 2 | `@modelcontextprotocol/server-github` | 2,536 | 563,482 | 6.61 |
-| 3 | `@modelcontextprotocol/server-memory` | 1,832 | 407,394 | 6.37 |
-| 4 | `@modelcontextprotocol/server-postgres` | 1,134 | 507,987 | 6.15 |
-| 5 | `@modelcontextprotocol/server-puppeteer` | 538 | 129,255 | 5.47 |
+| # | 包 | `mcp.json` 引用数 | npm 月下载 | Δ（周） | 得分 |
+|---|---|---|---|---|---|
+| 1 | `@modelcontextprotocol/server-filesystem` | 3,560 | 2,079,412 | 0 | 7.06 |
+| 2 | `@modelcontextprotocol/server-github` | 2,536 | 563,482 | 0 | 6.61 |
+| 3 | `@modelcontextprotocol/server-memory` | 1,832 | 407,394 | 0 | 6.37 |
+| 4 | `@modelcontextprotocol/server-postgres` | 1,134 | 507,987 | 0 | 6.15 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | 538 | 129,255 | 0 | 5.47 |
 
 **🧠 Agent Skill 与库**
 
-| # | 仓库 | 依赖数 | Star | 得分 |
-|---|---|---|---|---|
-| 1 | `langchain-ai/langchain` | 340,480 | 143,545 | 9.44 |
-| 2 | `langchain-ai/langgraph` | 108,288 | 39,025 | 8.60 |
-| 3 | `microsoft/autogen` | 66,688 | 60,265 | 8.46 |
-| 4 | `agno-agi/agno` | 50,816 | 41,601 | 8.18 |
-| 5 | `crewAIInc/crewAI` | 16,448 | 56,690 | 7.93 |
+| # | 仓库 | 依赖数 | Star | Δ 依赖 | 得分 |
+|---|---|---|---|---|---|
+| 1 | `langchain-ai/langchain` | 340,480 | 143,545 | 0 | 9.44 |
+| 2 | `langchain-ai/langgraph` | 108,288 | 39,025 | 0 | 8.60 |
+| 3 | `microsoft/autogen` | 66,688 | 60,265 | 0 | 8.46 |
+| 4 | `agno-agi/agno` | 50,816 | 41,601 | 0 | 8.18 |
+| 5 | `crewAIInc/crewAI` | 16,448 | 56,690 | 0 | 7.93 |
+
+趋势将于第二次周更后开始显示。
 
 完整榜单（MCP Top 30 + 全部 Skill）：[`data/rankings/latest.json`](data/rankings/latest.json) · [在线站点](https://zensoro.github.io/agent-called-what/)
 

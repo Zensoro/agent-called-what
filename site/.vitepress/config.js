@@ -52,6 +52,7 @@ export default defineConfig({
     nav: [
       { text: 'MCP Servers', link: '/mcp' },
       { text: 'Agent Skills', link: '/skills' },
+      { text: 'Trends', link: '/trends' },
       { text: 'Methodology', link: '/methodology' },
       { text: 'GitHub', link: 'https://github.com/Zensoro/agent-called-what' }
     ],
@@ -59,7 +60,8 @@ export default defineConfig({
       '/': [
         { text: 'Rankings', items: [
           { text: 'MCP Servers', link: '/mcp' },
-          { text: 'Agent Skills', link: '/skills' }
+          { text: 'Agent Skills', link: '/skills' },
+          { text: 'Weekly Trends', link: '/trends' }
         ]},
         { text: 'About', items: [
           { text: 'Methodology', link: '/methodology' },

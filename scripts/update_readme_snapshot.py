@@ -15,42 +15,65 @@ def _fmt_int(v):
     return f"{int(v):,}"
 
 
+def _fmt_delta(v):
+    v = int(v)
+    return f"+{v:,}" if v > 0 else f"{v:,}"
+
+
+def _top_mover_en(d):
+    movers = d.get("trends", {}).get("movers", [])
+    if not movers:
+        return "Trends start appearing from the second weekly update."
+    m = movers[0]
+    table = "MCP servers" if m["table"] == "mcp_servers" else "agent skills"
+    return f"**📈 This week's top mover:** `{m['name']}` (+{m['delta']:,} in {m['field']})."
+
+
+def _top_mover_cn(d):
+    movers = d.get("trends", {}).get("movers", [])
+    if not movers:
+        return "趋势将于第二次周更后开始显示。"
+    m = movers[0]
+    table = "MCP 服务器" if m["table"] == "mcp_servers" else "Agent 库"
+    return f"**📈 本周涨幅最高：** `{m['name']}`（{m['field']} +{m['delta']:,}）。"
+
+
 def _mcp_table(rows):
-    lines = ["| # | Package | `mcp.json` call count | npm downloads/mo | Score |", "|---|---|---|---|---|"]
+    lines = ["| # | Package | `mcp.json` call count | npm downloads/mo | Δ (week) | Score |", "|---|---|---|---|---|---|"]
     for r in rows:
         lines.append(
             f"| {r['rank']} | `{r['package']}` | {_fmt_int(r['call_count'])} | "
-            f"{_fmt_int(r['npm_monthly_dl'])} | {r['score']:.2f} |"
+            f"{_fmt_int(r['npm_monthly_dl'])} | {_fmt_delta(r.get('weekly_delta', 0))} | {r['score']:.2f} |"
         )
     return "\n".join(lines)
 
 
 def _skill_table(rows):
-    lines = ["| # | Repo | Dependents | Stars | Score |", "|---|---|---|---|---|"]
+    lines = ["| # | Repo | Dependents | Stars | Δ deps | Score |", "|---|---|---|---|---|---|"]
     for i, r in enumerate(rows, 1):
         lines.append(
             f"| {i} | `{r['repo']}` | {_fmt_int(r['dependents'])} | "
-            f"{_fmt_int(r['stars'])} | {r['score']:.2f} |"
+            f"{_fmt_int(r['stars'])} | {_fmt_delta(r.get('delta_dependents', 0))} | {r['score']:.2f} |"
         )
     return "\n".join(lines)
 
 
 def _mcp_table_cn(rows):
-    lines = ["| # | 包 | `mcp.json` 引用数 | npm 月下载 | 得分 |", "|---|---|---|---|---|"]
+    lines = ["| # | 包 | `mcp.json` 引用数 | npm 月下载 | Δ（周） | 得分 |", "|---|---|---|---|---|---|"]
     for r in rows:
         lines.append(
             f"| {r['rank']} | `{r['package']}` | {_fmt_int(r['call_count'])} | "
-            f"{_fmt_int(r['npm_monthly_dl'])} | {r['score']:.2f} |"
+            f"{_fmt_int(r['npm_monthly_dl'])} | {_fmt_delta(r.get('weekly_delta', 0))} | {r['score']:.2f} |"
         )
     return "\n".join(lines)
 
 
 def _skill_table_cn(rows):
-    lines = ["| # | 仓库 | 依赖数 | Star | 得分 |", "|---|---|---|---|---|"]
+    lines = ["| # | 仓库 | 依赖数 | Star | Δ 依赖 | 得分 |", "|---|---|---|---|---|---|"]
     for i, r in enumerate(rows, 1):
         lines.append(
             f"| {i} | `{r['repo']}` | {_fmt_int(r['dependents'])} | "
-            f"{_fmt_int(r['stars'])} | {r['score']:.2f} |"
+            f"{_fmt_int(r['stars'])} | {_fmt_delta(r.get('delta_dependents', 0))} | {r['score']:.2f} |"
         )
     return "\n".join(lines)
 
@@ -66,6 +89,7 @@ def render_en(d):
         f"{_mcp_table(mcp)}\n\n"
         "**🧠 Agent skills & libraries**\n\n"
         f"{_skill_table(skills)}\n\n"
+        f"{_top_mover_en(d)}\n\n"
         "Full rankings (Top 30 MCP + all skills): "
         "[`data/rankings/latest.json`](data/rankings/latest.json) · "
         "[interactive site](https://zensoro.github.io/agent-called-what/)\n\n"
@@ -83,6 +107,7 @@ def render_cn(d):
         f"{_mcp_table_cn(mcp)}\n\n"
         "**🧠 Agent Skill 与库**\n\n"
         f"{_skill_table_cn(skills)}\n\n"
+        f"{_top_mover_cn(d)}\n\n"
         "完整榜单（MCP Top 30 + 全部 Skill）："
         "[`data/rankings/latest.json`](data/rankings/latest.json) · "
         "[在线站点](https://zensoro.github.io/agent-called-what/)\n\n"

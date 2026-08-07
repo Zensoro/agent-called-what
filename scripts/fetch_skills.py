@@ -124,8 +124,10 @@ def main():
         refs = references_for(full)
 
         prev_row = prev.get(full, {})
-        delta_stars = meta["stars"] - prev_row.get("stars", 0)
-        delta_deps  = refs     - prev_row.get("dependents", 0)
+        is_new = full not in prev
+        # Newly added repo: delta vs nothing is meaningless → 0 + newcomers flag.
+        delta_stars = 0 if is_new else meta["stars"] - prev_row.get("stars", 0)
+        delta_deps  = 0 if is_new else refs     - prev_row.get("dependents", 0)
 
         row = {
             "repo": full,
@@ -135,6 +137,7 @@ def main():
             "last_commit": meta["pushed_at"],
             "delta_stars": delta_stars,
             "delta_dependents": delta_deps,
+            "is_new": is_new,
             "signal": "code-search manifest reference count",
         }
         rows.append(row)

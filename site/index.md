@@ -20,14 +20,14 @@ hero:
 features:
   - title: 📊 Behavior, not hype
     details: We count how often each MCP server appears in real public mcp.json configs — not how many stars a README collected.
+  - title: 📈 Weekly trends
+    details: Every update tracks week-over-week movement — what's rising, what's fading, which packages are new. The ecosystem's pulse, not just a snapshot.
   - title: 🔓 Open data
     details: Every snapshot is a versioned JSON file in /data. Clone the repo, run three Python scripts, reproduce the rankings bit-for-bit.
-  - title: 🔁 Weekly updates
-    details: GitHub Actions runs every Monday at 02:00 UTC. New data, new commit, zero manual work.
-  - title: 🧪 Transparent scoring
-    details: Composite formula and every signal source are documented in methodology.md. Weights are tunable via PR.
   - title: 🐍 Zero dependencies
     details: Scripts use only Python stdlib + urllib. No pip install, no lockfile, no supply-chain anxiety.
+  - title: 🧪 Transparent scoring
+    details: Composite formula and every signal source are documented in methodology.md. Weights are tunable via PR.
   - title: 🤝 Community-driven
     details: New MCP server? Add one line to mcp_packages.py. Better weights? Open an issue. This is open source in the literal sense.
 ---
@@ -36,6 +36,7 @@ features:
 
 - **[MCP Servers Ranking →](/mcp)**
 - **[Agent Skills & Libraries →](/skills)**
+- **[Weekly Trends →](/trends)**
 - **[Methodology →](/methodology)**
 - **[Contributing →](/contributing)**
 - **[GitHub Repo](https://github.com/Zensoro/agent-called-what)**

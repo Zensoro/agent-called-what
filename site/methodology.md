@@ -76,6 +76,18 @@ score = 0.35 · log(1 + dependents)
 
 **Why these weights?** Subjective, based on which signal we trust most. `call_count` and `dependents` are behavioral → higher weight. `stars` and `forks` are social → lower weight. **All weights are tunable** — open an issue with your reasoning and we'll iterate.
 
+## Weekly trends
+
+Each snapshot is compared against the **previous** snapshot to produce week-over-week deltas:
+
+- **MCP servers:** `weekly_delta` = current `call_count` − previous snapshot's `call_count`.
+- **Skills & libs:** `delta_dependents` = current reference count − previous; `delta_stars` likewise.
+- **Newcomers:** a seed entry first seen this week (`is_new`) is **excluded from delta ranking** (its "delta" vs nothing would be meaningless) and listed under *New faces* instead.
+
+Trends are a **separate display dimension** — they do not feed back into the composite score, so rankings stay stable week to week. A brand-new seed entry (added via `scripts/lib/mcp_packages.py`) shows up as a newcomer, not as a fake "surge".
+
+**Caveats:** code-search counts fluctuate with GitHub indexing; small deltas (< 5) should be read as noise. With only one snapshot on record, trends render a "no prior data" placeholder — real numbers start from the second weekly run.
+
 ## Update cadence
 
 GitHub Actions runs `fetch_mcp.py` + `fetch_skills.py` + `compose.py` every **Monday 02:00 UTC**. Each run appends a dated JSON to `data/mcp-servers/`, `data/skills/`, and `data/rankings/`. `latest.json` is overwritten in place for the site to consume.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06",
+  "generated_at": "2026-08-07",
   "methodology": {
     "mcp_score": "0.4\u00b7log(1+call_count) + 0.2\u00b7log(1+npm_dl) + 0.15\u00b7log(1+call_proxy)",
     "skill_score": "0.35\u00b7log(1+dependents) + 0.25\u00b7log(1+stars) + 0.2\u00b7log(1+\u0394stars) + 0.2\u00b7log(1+forks)",
@@ -503,5 +503,27 @@
         "score": 3.228
       }
     ]
+  },
+  "trends": {
+    "movers": [],
+    "declining": [
+      {
+        "table": "agent_skills",
+        "name": "jina-ai/serve",
+        "field": "dependents",
+        "delta": -4538368,
+        "current": 0,
+        "rank": 15
+      },
+      {
+        "table": "agent_skills",
+        "name": "langgenius/dify",
+        "field": "dependents",
+        "delta": -28530,
+        "current": 78,
+        "rank": 11
+      }
+    ],
+    "newcomers": []
   }
 }

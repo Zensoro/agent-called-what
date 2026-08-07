@@ -44,6 +44,64 @@ def score_skill(row) -> float:
 def top(rows, key, n=30):
     return sorted(rows, key=lambda r: key(r), reverse=True)[:n]
 
+def _rank_lookup(ranked: list[dict], name_key: str) -> dict:
+    """{name: rank} from a ranked table."""
+    return {r[name_key]: r.get("rank") for r in ranked}
+
+def build_trends(mcp_rows, skill_rows, mcp_ranked, skill_ranked) -> dict:
+    """Weekly behavioral trends: movers / declining / newcomers.
+
+    - movers    : biggest positive Δ in the behavioral signal
+                  (mcp: weekly_delta of call_count; skills: delta_dependents)
+    - declining : biggest negative Δ in the same signals
+    - newcomers : entries first seen this week (is_new), excluded from deltas
+    """
+    mcp_rank = _rank_lookup(mcp_ranked, "package")
+    skill_rank = _rank_lookup(skill_ranked, "repo")
+
+    deltas = []
+    for r in mcp_rows:
+        d = r.get("weekly_delta", 0)
+        if r.get("is_new"):
+            continue
+        deltas.append({
+            "table": "mcp_servers", "name": r["package"],
+            "field": "call_count", "delta": d,
+            "current": r.get("call_count", 0),
+            "rank": mcp_rank.get(r["package"]),
+        })
+    for r in skill_rows:
+        d = r.get("delta_dependents", 0)
+        if r.get("is_new"):
+            continue
+        deltas.append({
+            "table": "agent_skills", "name": r["repo"],
+            "field": "dependents", "delta": d,
+            "current": r.get("dependents", 0),
+            "rank": skill_rank.get(r["repo"]),
+        })
+
+    movers = sorted([d for d in deltas if d["delta"] > 0], key=lambda d: d["delta"], reverse=True)[:10]
+    declining = sorted([d for d in deltas if d["delta"] < 0], key=lambda d: d["delta"])[:10]
+
+    newcomers = []
+    for r in mcp_rows:
+        if r.get("is_new"):
+            newcomers.append({
+                "table": "mcp_servers", "name": r["package"],
+                "value": r.get("call_count", 0),
+                "rank": mcp_rank.get(r["package"]),
+            })
+    for r in skill_rows:
+        if r.get("is_new"):
+            newcomers.append({
+                "table": "agent_skills", "name": r["repo"],
+                "value": r.get("dependents", 0),
+                "rank": skill_rank.get(r["repo"]),
+            })
+
+    return {"movers": movers, "declining": declining, "newcomers": newcomers}
+
 def main():
     today = datetime.date.today().isoformat()
 
@@ -78,7 +136,8 @@ def main():
         "tables": {
             "mcp_servers":  mcp_ranked,
             "agent_skills": skills_ranked,
-        }
+        },
+        "trends": build_trends(mcp_rows, skill_rows, mcp_ranked, skills_ranked),
     }
 
     out_path = RANK_DIR / f"{today}.json"

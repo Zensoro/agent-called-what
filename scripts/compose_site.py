@@ -66,14 +66,67 @@ def gen_skills_md(data: dict) -> str:
     body += "\n---\n\n[← Home](./) · [Methodology](./methodology) · [MCP Servers](./mcp)\n"
     return body
 
+def gen_trends_md(data: dict) -> str:
+    today = data.get("generated_at", datetime.date.today().isoformat())
+    trends = data.get("trends", {})
+    body = f"---\ntitle: Weekly Trends\n---\n\n# 📈 Weekly Trends\n\n_Updated: {today}_\n\n"
+    body += (
+        "How the agent ecosystem moved this week. Deltas are week-over-week "
+        "changes in the behavioral signals (mcp call count / skill dependents).\n\n"
+    )
+
+    movers = trends.get("movers", [])
+    declining = trends.get("declining", [])
+    newcomers = trends.get("newcomers", [])
+
+    if not movers and not declining and not newcomers:
+        body += (
+            "> First snapshot or no prior data yet — trends will appear after "
+            "the next weekly update. Come back next Monday. 👀\n\n"
+        )
+        body += "---\n\n[← Home](./) · [Methodology](./methodology) · [MCP Servers](./mcp) · [Agent Skills](./skills)\n"
+        return body
+
+    if movers:
+        body += "## 🔥 Rising this week\n\n"
+        body += "| # | Table | Name | Δ | Current | Rank |\n|---|---|---|---|---|---|\n"
+        for i, e in enumerate(movers, 1):
+            rank = e.get("rank") or "—"
+            name = f"[{e['name']}](https://github.com/{e['name']})" if e["table"] == "agent_skills" else f"`{e['name']}`"
+            body += f"| {i} | {e['table']} | {name} | +{fmt_int(e['delta'])} | {fmt_int(e.get('current',0))} | {rank} |\n"
+        body += "\n"
+
+    if declining:
+        body += "## 📉 Declining this week\n\n"
+        body += "| # | Table | Name | Δ | Current | Rank |\n|---|---|---|---|---|---|\n"
+        for i, e in enumerate(declining, 1):
+            rank = e.get("rank") or "—"
+            name = f"[{e['name']}](https://github.com/{e['name']})" if e["table"] == "agent_skills" else f"`{e['name']}`"
+            body += f"| {i} | {e['table']} | {name} | {fmt_int(e['delta'])} | {fmt_int(e.get('current',0))} | {rank} |\n"
+        body += "\n"
+
+    if newcomers:
+        body += "## 🆕 New faces\n\n"
+        body += "| # | Table | Name | Value | Rank |\n|---|---|---|---|---|\n"
+        for i, e in enumerate(newcomers, 1):
+            rank = e.get("rank") or "—"
+            body += f"| {i} | {e['table']} | `{e['name']}` | {fmt_int(e.get('value',0))} | {rank} |\n"
+        body += "\n"
+
+    body += "---\n\n[← Home](./) · [Methodology](./methodology) · [MCP Servers](./mcp) · [Agent Skills](./skills)\n"
+    return body
+
+
 def main():
     if not RANK.exists():
         raise SystemExit("❌ data/rankings/latest.json not found. Run scripts/compose.py first.")
     data = json.loads(RANK.read_text())
     (SITE / "mcp.md").write_text(gen_mcp_md(data))
     (SITE / "skills.md").write_text(gen_skills_md(data))
+    (SITE / "trends.md").write_text(gen_trends_md(data))
     print(f"✅ Wrote {SITE/'mcp.md'}  ({len(data['tables'].get('mcp_servers',[]))} rows)")
     print(f"✅ Wrote {SITE/'skills.md'}  ({len(data['tables'].get('agent_skills',[]))} rows)")
+    print(f"✅ Wrote {SITE/'trends.md'}  ({len(data.get('trends',{}).get('movers',[]))} movers)")
 
 if __name__ == "__main__":
     main()

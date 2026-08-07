@@ -4,7 +4,7 @@ title: Agent Skills & Libraries Ranking
 
 # 🧩 Agent Skills & Libraries — Behavior-Based Ranking
 
-_Updated: 2026-08-06_
+_Updated: 2026-08-07_
 
 ## How to read this table
 
