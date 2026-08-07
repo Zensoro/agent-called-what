@@ -21,17 +21,17 @@ _Updated: 2026-08-07_
 |---|---|---|---|---|---|---|---|
 | 1 | `@modelcontextprotocol/server-filesystem` | npm | filesystem | 3,560 | 2,079,412 | 0 | 7.062 |
 | 2 | `@modelcontextprotocol/server-github` | npm | devops | 2,536 | 563,482 | 0 | 6.614 |
-| 3 | `@modelcontextprotocol/server-memory` | npm | memory | 1,832 | 407,394 | 0 | 6.371 |
-| 4 | `@modelcontextprotocol/server-postgres` | npm | database | 1,134 | 507,987 | 0 | 6.152 |
-| 5 | `@modelcontextprotocol/server-puppeteer` | npm | web | 538 | 129,255 | 0 | 5.468 |
+| 3 | `@modelcontextprotocol/server-memory` | npm | memory | 1,808 | 407,394 | -24 | 6.363 |
+| 4 | `@modelcontextprotocol/server-postgres` | npm | database | 1,172 | 507,987 | +38 | 6.170 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | npm | web | 534 | 129,255 | -4 | 5.465 |
 | 6 | `@modelcontextprotocol/server-brave-search` | npm | search | 443 | 108,921 | 0 | 5.329 |
-| 7 | `@modelcontextprotocol/server-slack` | npm | communication | 188 | 358,779 | 0 | 5.096 |
+| 7 | `@modelcontextprotocol/server-slack` | npm | communication | 192 | 358,779 | +4 | 5.113 |
 | 8 | `@modelcontextprotocol/server-git` | npm | devops | 2,728 | 0 | 0 | 4.006 |
 | 9 | `@modelcontextprotocol/server-google-maps` | npm | web | 32 | 28,688 | 0 | 3.659 |
-| 10 | `@modelcontextprotocol/server-fetch` | npm | web | 421 | 0 | 0 | 2.982 |
+| 10 | `@modelcontextprotocol/server-fetch` | npm | web | 419 | 0 | -2 | 2.977 |
 | 11 | `mcp-server-sqlite` | pypi | database | 223 | 0 | 0 | 2.635 |
-| 12 | `@modelcontextprotocol/server-sqlite` | npm | database | 167 | 0 | 0 | 2.475 |
-| 13 | `mcp-server-docker` | pypi | devops | 92 | 0 | 0 | 2.158 |
+| 12 | `@modelcontextprotocol/server-sqlite` | npm | database | 168 | 0 | +1 | 2.477 |
+| 13 | `mcp-server-docker` | pypi | devops | 93 | 0 | +1 | 2.163 |
 | 14 | `mcp-server-postgres` | pypi | database | 76 | 0 | 0 | 2.049 |
 | 15 | `mcp-server-kubernetes` | pypi | devops | 67 | 0 | 0 | 1.980 |
 | 16 | `mcp-server-azure` | pypi | cloud | 58 | 0 | 0 | 1.900 |

@@ -19,21 +19,21 @@ The full dataset updates **every Monday** via GitHub Actions. Latest Top 5:
 |---|---|---|---|---|---|
 | 1 | `@modelcontextprotocol/server-filesystem` | 3,560 | 2,079,412 | 0 | 7.06 |
 | 2 | `@modelcontextprotocol/server-github` | 2,536 | 563,482 | 0 | 6.61 |
-| 3 | `@modelcontextprotocol/server-memory` | 1,832 | 407,394 | 0 | 6.37 |
-| 4 | `@modelcontextprotocol/server-postgres` | 1,134 | 507,987 | 0 | 6.15 |
-| 5 | `@modelcontextprotocol/server-puppeteer` | 538 | 129,255 | 0 | 5.47 |
+| 3 | `@modelcontextprotocol/server-memory` | 1,808 | 407,394 | -24 | 6.36 |
+| 4 | `@modelcontextprotocol/server-postgres` | 1,172 | 507,987 | +38 | 6.17 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | 534 | 129,255 | -4 | 5.46 |
 
 **🧠 Agent skills & libraries**
 
 | # | Repo | Dependents | Stars | Δ deps | Score |
 |---|---|---|---|---|---|
-| 1 | `langchain-ai/langchain` | 340,480 | 143,545 | 0 | 9.44 |
-| 2 | `langchain-ai/langgraph` | 108,288 | 39,025 | 0 | 8.60 |
-| 3 | `microsoft/autogen` | 66,688 | 60,265 | 0 | 8.46 |
-| 4 | `agno-agi/agno` | 50,816 | 41,601 | 0 | 8.18 |
-| 5 | `crewAIInc/crewAI` | 16,448 | 56,690 | 0 | 7.93 |
+| 1 | `langchain-ai/langchain` | 340,480 | 143,588 | 0 | 10.20 |
+| 2 | `langchain-ai/langgraph` | 108,800 | 39,078 | +512 | 9.26 |
+| 3 | `microsoft/autogen` | 66,688 | 60,283 | 0 | 9.05 |
+| 4 | `agno-agi/agno` | 50,560 | 41,611 | -256 | 8.66 |
+| 5 | `crewAIInc/crewAI` | 16,576 | 56,722 | +128 | 8.64 |
 
-Trends start appearing from the second weekly update.
+**📈 This week's top mover:** `langchain-ai/langgraph` (+512 in dependents).
 
 Full rankings (Top 30 MCP + all skills): [`data/rankings/latest.json`](data/rankings/latest.json) · [interactive site](https://zensoro.github.io/agent-called-what/)
 
