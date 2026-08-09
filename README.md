@@ -112,6 +112,18 @@ Two reasons:
 
 **Q: How is this different from AgentScout / Billboard?** They rank by stars. We rank by *behavioral evidence* — config-file presence and dependency edges. Stars measure hype; config presence measures adoption.
 
+## 🤖 Development & AI Disclosure
+
+This project is developed with **heavy AI assistance** (code generation, tests,
+docs, refactoring, debugging).
+
+- **Core logic is human-reviewed**: key algorithms and parameters are reviewed
+  at source level, not machine-asserted.
+- **Tests run independently in CI**: everything is reproducible via GitHub
+  Actions.
+- **Accuracy over hype**: if you find any overstated claim, please open an
+  issue.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
