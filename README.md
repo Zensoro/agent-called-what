@@ -1,5 +1,9 @@
 # agent-called-what
 
+[![Status: experimental](https://img.shields.io/badge/status-experimental-orange.svg)](https://github.com/Zensoro)
+
+> ⚠️ **Experimental** — 实验性项目，功能可能不稳定或演进中。
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Weekly Update](https://img.shields.io/badge/update-weekly-blue.svg)](.github/workflows/weekly.yml)
 [![Site](https://img.shields.io/badge/site-GitHub%20Pages-8A2BE2)](https://zensoro.github.io/agent-called-what/)
