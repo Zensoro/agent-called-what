@@ -9,7 +9,7 @@
 
 市面上所有"AI Agent 排行榜"本质都是 star 计数器套壳。本仓库衡量的是真正重要的事：**真实的 AI Agent 在野外实际接入、调用了哪些 MCP Server、Skill 和库**——证据来自公开的 `mcp.json` 配置文件和仓库依赖图。
 
-## 📊 最新快照 — 2026-08-07
+## 📊 最新快照 — 2026-08-10
 
 数据集每周一由 GitHub Actions 自动更新。当前 Top 5：
 
@@ -17,23 +17,23 @@
 
 | # | 包 | `mcp.json` 引用数 | npm 月下载 | Δ（周） | 得分 |
 |---|---|---|---|---|---|
-| 1 | `@modelcontextprotocol/server-filesystem` | 3,560 | 2,079,412 | 0 | 7.06 |
-| 2 | `@modelcontextprotocol/server-github` | 2,536 | 563,482 | 0 | 6.61 |
-| 3 | `@modelcontextprotocol/server-memory` | 1,808 | 407,394 | -24 | 6.36 |
-| 4 | `@modelcontextprotocol/server-postgres` | 1,172 | 507,987 | +38 | 6.17 |
-| 5 | `@modelcontextprotocol/server-puppeteer` | 534 | 129,255 | -4 | 5.46 |
+| 1 | `@modelcontextprotocol/server-filesystem` | 3,664 | 2,112,037 | +104 | 7.08 |
+| 2 | `@modelcontextprotocol/server-github` | 2,564 | 546,120 | +28 | 6.61 |
+| 3 | `@modelcontextprotocol/server-memory` | 1,824 | 399,923 | +16 | 6.37 |
+| 4 | `@modelcontextprotocol/server-postgres` | 1,148 | 488,302 | -24 | 6.15 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | 535 | 121,149 | +1 | 5.45 |
 
 **🧠 Agent Skill 与库**
 
 | # | 仓库 | 依赖数 | Star | Δ 依赖 | 得分 |
 |---|---|---|---|---|---|
-| 1 | `langchain-ai/langchain` | 340,480 | 143,588 | 0 | 10.20 |
-| 2 | `langchain-ai/langgraph` | 108,800 | 39,078 | +512 | 9.26 |
-| 3 | `microsoft/autogen` | 66,688 | 60,283 | 0 | 9.05 |
-| 4 | `agno-agi/agno` | 50,560 | 41,611 | -256 | 8.66 |
-| 5 | `crewAIInc/crewAI` | 16,576 | 56,722 | +128 | 8.64 |
+| 1 | `langchain-ai/langchain` | 342,528 | 143,831 | +2,048 | 10.55 |
+| 2 | `langchain-ai/langgraph` | 108,288 | 39,327 | -512 | 9.57 |
+| 3 | `microsoft/autogen` | 66,432 | 60,337 | -256 | 9.26 |
+| 4 | `crewAIInc/crewAI` | 16,832 | 56,878 | +256 | 8.95 |
+| 5 | `agno-agi/agno` | 53,504 | 41,638 | +2,944 | 8.87 |
 
-**📈 本周涨幅最高：** `langchain-ai/langgraph`（dependents +512）。
+**📈 本周涨幅最高：** `agno-agi/agno`（dependents +2,944）。
 
 完整榜单（MCP Top 30 + 全部 Skill）：[`data/rankings/latest.json`](data/rankings/latest.json) · [在线站点](https://zensoro.github.io/agent-called-what/)
 

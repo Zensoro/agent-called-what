@@ -4,7 +4,7 @@ title: MCP Servers Ranking
 
 # 🔌 MCP Servers — Behavior-Based Ranking
 
-_Updated: 2026-08-07_
+_Updated: 2026-08-10_
 
 ## How to read this table
 
@@ -19,22 +19,22 @@ _Updated: 2026-08-07_
 
 | # | Package | Registry | Category | Call Count | npm DL/mo | Δ (week) | Score |
 |---|---|---|---|---|---|---|---|
-| 1 | `@modelcontextprotocol/server-filesystem` | npm | filesystem | 3,560 | 2,079,412 | 0 | 7.062 |
-| 2 | `@modelcontextprotocol/server-github` | npm | devops | 2,536 | 563,482 | 0 | 6.614 |
-| 3 | `@modelcontextprotocol/server-memory` | npm | memory | 1,808 | 407,394 | -24 | 6.363 |
-| 4 | `@modelcontextprotocol/server-postgres` | npm | database | 1,172 | 507,987 | +38 | 6.170 |
-| 5 | `@modelcontextprotocol/server-puppeteer` | npm | web | 534 | 129,255 | -4 | 5.465 |
-| 6 | `@modelcontextprotocol/server-brave-search` | npm | search | 443 | 108,921 | 0 | 5.329 |
-| 7 | `@modelcontextprotocol/server-slack` | npm | communication | 192 | 358,779 | +4 | 5.113 |
-| 8 | `@modelcontextprotocol/server-git` | npm | devops | 2,728 | 0 | 0 | 4.006 |
-| 9 | `@modelcontextprotocol/server-google-maps` | npm | web | 32 | 28,688 | 0 | 3.659 |
-| 10 | `@modelcontextprotocol/server-fetch` | npm | web | 419 | 0 | -2 | 2.977 |
-| 11 | `mcp-server-sqlite` | pypi | database | 223 | 0 | 0 | 2.635 |
-| 12 | `@modelcontextprotocol/server-sqlite` | npm | database | 168 | 0 | +1 | 2.477 |
-| 13 | `mcp-server-docker` | pypi | devops | 93 | 0 | +1 | 2.163 |
-| 14 | `mcp-server-postgres` | pypi | database | 76 | 0 | 0 | 2.049 |
+| 1 | `@modelcontextprotocol/server-filesystem` | npm | filesystem | 3,664 | 2,112,037 | +104 | 7.081 |
+| 2 | `@modelcontextprotocol/server-github` | npm | devops | 2,564 | 546,120 | +28 | 6.614 |
+| 3 | `@modelcontextprotocol/server-memory` | npm | memory | 1,824 | 399,923 | +16 | 6.365 |
+| 4 | `@modelcontextprotocol/server-postgres` | npm | database | 1,148 | 488,302 | -24 | 6.150 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | npm | web | 535 | 121,149 | +1 | 5.453 |
+| 6 | `@modelcontextprotocol/server-brave-search` | npm | search | 451 | 112,421 | +8 | 5.346 |
+| 7 | `@modelcontextprotocol/server-slack` | npm | communication | 190 | 353,212 | -2 | 5.105 |
+| 8 | `@modelcontextprotocol/server-git` | npm | devops | 2,756 | 0 | +28 | 4.012 |
+| 9 | `@modelcontextprotocol/server-google-maps` | npm | web | 33 | 27,232 | +1 | 3.661 |
+| 10 | `@modelcontextprotocol/server-fetch` | npm | web | 422 | 0 | +3 | 2.983 |
+| 11 | `mcp-server-sqlite` | pypi | database | 225 | 0 | +2 | 2.639 |
+| 12 | `@modelcontextprotocol/server-sqlite` | npm | database | 171 | 0 | +3 | 2.493 |
+| 13 | `mcp-server-docker` | pypi | devops | 93 | 0 | 0 | 2.163 |
+| 14 | `mcp-server-postgres` | pypi | database | 77 | 0 | +1 | 2.055 |
 | 15 | `mcp-server-kubernetes` | pypi | devops | 67 | 0 | 0 | 1.980 |
-| 16 | `mcp-server-azure` | pypi | cloud | 58 | 0 | 0 | 1.900 |
+| 16 | `mcp-server-azure` | pypi | cloud | 59 | 0 | +1 | 1.907 |
 | 17 | `mcp-server-replicate` | pypi | ai | 56 | 0 | 0 | 1.886 |
 | 18 | `@anthropic-ai/mcp-server-filesystem` | npm | filesystem | 36 | 0 | 0 | 1.652 |
 | 19 | `mem0-mcp` | pypi | memory | 36 | 0 | 0 | 1.652 |
