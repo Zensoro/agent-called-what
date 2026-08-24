@@ -1,0 +1,362 @@
+[
+  {
+    "package": "@modelcontextprotocol/server-filesystem",
+    "registry": "npm",
+    "category": "filesystem",
+    "call_count": 3592,
+    "npm_monthly_dl": 2039280,
+    "weekly_delta": -72,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-git",
+    "registry": "npm",
+    "category": "devops",
+    "call_count": 2652,
+    "npm_monthly_dl": 0,
+    "weekly_delta": -104,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-github",
+    "registry": "npm",
+    "category": "devops",
+    "call_count": 2544,
+    "npm_monthly_dl": 511796,
+    "weekly_delta": -20,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-memory",
+    "registry": "npm",
+    "category": "memory",
+    "call_count": 1782,
+    "npm_monthly_dl": 381891,
+    "weekly_delta": -42,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-postgres",
+    "registry": "npm",
+    "category": "database",
+    "call_count": 1220,
+    "npm_monthly_dl": 417177,
+    "weekly_delta": 72,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-puppeteer",
+    "registry": "npm",
+    "category": "web",
+    "call_count": 524,
+    "npm_monthly_dl": 108625,
+    "weekly_delta": -11,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-brave-search",
+    "registry": "npm",
+    "category": "search",
+    "call_count": 438,
+    "npm_monthly_dl": 96742,
+    "weekly_delta": -13,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-fetch",
+    "registry": "npm",
+    "category": "web",
+    "call_count": 424,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 2,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-sqlite",
+    "registry": "pypi",
+    "category": "database",
+    "call_count": 224,
+    "npm_monthly_dl": 0,
+    "weekly_delta": -1,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-slack",
+    "registry": "npm",
+    "category": "communication",
+    "call_count": 192,
+    "npm_monthly_dl": 393825,
+    "weekly_delta": 2,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-sqlite",
+    "registry": "npm",
+    "category": "database",
+    "call_count": 171,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-docker",
+    "registry": "pypi",
+    "category": "devops",
+    "call_count": 99,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 6,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-postgres",
+    "registry": "pypi",
+    "category": "database",
+    "call_count": 89,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 12,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-kubernetes",
+    "registry": "pypi",
+    "category": "devops",
+    "call_count": 70,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 3,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-azure",
+    "registry": "pypi",
+    "category": "cloud",
+    "call_count": 58,
+    "npm_monthly_dl": 0,
+    "weekly_delta": -1,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-replicate",
+    "registry": "pypi",
+    "category": "ai",
+    "call_count": 56,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mem0-mcp",
+    "registry": "pypi",
+    "category": "memory",
+    "call_count": 37,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 1,
+    "is_new": false
+  },
+  {
+    "package": "@anthropic-ai/mcp-server-filesystem",
+    "registry": "npm",
+    "category": "filesystem",
+    "call_count": 35,
+    "npm_monthly_dl": 0,
+    "weekly_delta": -1,
+    "is_new": false
+  },
+  {
+    "package": "@modelcontextprotocol/server-google-maps",
+    "registry": "npm",
+    "category": "web",
+    "call_count": 35,
+    "npm_monthly_dl": 23968,
+    "weekly_delta": 2,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-sentry",
+    "registry": "pypi",
+    "category": "observability",
+    "call_count": 22,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 1,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-redis",
+    "registry": "pypi",
+    "category": "database",
+    "call_count": 21,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-notion",
+    "registry": "pypi",
+    "category": "productivity",
+    "call_count": 18,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 1,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-aws",
+    "registry": "pypi",
+    "category": "cloud",
+    "call_count": 17,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-jira",
+    "registry": "pypi",
+    "category": "productivity",
+    "call_count": 16,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "graphiti-mcp",
+    "registry": "pypi",
+    "category": "memory",
+    "call_count": 14,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 3,
+    "is_new": false
+  },
+  {
+    "package": "@anthropic-ai/mcp-server-github",
+    "registry": "npm",
+    "category": "devops",
+    "call_count": 13,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-youtube",
+    "registry": "pypi",
+    "category": "web",
+    "call_count": 11,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-linear",
+    "registry": "pypi",
+    "category": "productivity",
+    "call_count": 7,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-mongodb",
+    "registry": "pypi",
+    "category": "database",
+    "call_count": 5,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-gcp",
+    "registry": "pypi",
+    "category": "cloud",
+    "call_count": 4,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-discord",
+    "registry": "pypi",
+    "category": "communication",
+    "call_count": 3,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-openai",
+    "registry": "pypi",
+    "category": "ai",
+    "call_count": 3,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-confluence",
+    "registry": "pypi",
+    "category": "productivity",
+    "call_count": 3,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-huggingface",
+    "registry": "pypi",
+    "category": "ai",
+    "call_count": 2,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-gmail",
+    "registry": "pypi",
+    "category": "communication",
+    "call_count": 2,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-twitter",
+    "registry": "pypi",
+    "category": "social",
+    "call_count": 1,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-google-drive",
+    "registry": "pypi",
+    "category": "productivity",
+    "call_count": 1,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-calendar",
+    "registry": "pypi",
+    "category": "productivity",
+    "call_count": 1,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-todoist",
+    "registry": "pypi",
+    "category": "productivity",
+    "call_count": 1,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  },
+  {
+    "package": "mcp-server-stripe",
+    "registry": "pypi",
+    "category": "fintech",
+    "call_count": 1,
+    "npm_monthly_dl": 0,
+    "weekly_delta": 0,
+    "is_new": false
+  }
+]
