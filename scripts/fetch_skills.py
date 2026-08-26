@@ -56,10 +56,20 @@ MANIFEST_OR = " OR ".join(
 )
 
 
-def get_json(url: str) -> dict:
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
+def get_json(url: str, retries: int = 3) -> dict:
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url, headers=HEADERS)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 502, 503, 504) and attempt < retries:
+                wait = 30 * (attempt + 1)
+                print(f"  ⚠️  HTTP {e.code} from {url} — retry {attempt + 1}/{retries} in {wait}s")
+                time.sleep(wait)
+                continue
+            raise
+    raise RuntimeError(f"GET {url} failed after {retries + 1} attempts")
 
 
 def search_reference_count(query: str) -> int:

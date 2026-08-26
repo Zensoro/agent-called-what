@@ -34,20 +34,29 @@ def search_code_count(query: str) -> int:
     """Return total_count for a GitHub code search query."""
     q = urllib.parse.quote(query)
     url = f"https://api.github.com/search/code?q={q}&per_page=1"
-    req = urllib.request.Request(url, headers={
-        "Authorization": f"Bearer {TOKEN}",
-        "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2022-11-28",
-        "User-Agent": "agent-called-what/0.1",
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            data = json.loads(r.read())
-    except urllib.error.HTTPError as e:
-        if e.code == 403:
-            raise SystemExit("\n❌ 403 from code search — rate limited. Wait ~60 s and re-run. "
-                             "Never retry in a tight loop.")
-        raise
+    for attempt in range(4):
+        req = urllib.request.Request(url, headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "User-Agent": "agent-called-what/0.1",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                data = json.loads(r.read())
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 403:
+                raise SystemExit("\n❌ 403 from code search — rate limited. Wait ~60 s and re-run. "
+                                 "Never retry in a tight loop.")
+            if e.code in (429, 502, 503, 504) and attempt < 3:
+                wait = 30 * (attempt + 1)
+                print(f"  ⚠️  HTTP {e.code} from code search — retry {attempt + 1}/3 in {wait}s")
+                time.sleep(wait)
+                continue
+            raise
+    else:
+        raise RuntimeError("GitHub code search failed after 4 attempts")
     # Abuse-rate-limit: check headers
     remaining = r.headers.get("X-RateLimit-Remaining")
     reset = r.headers.get("X-RateLimit-Reset")
