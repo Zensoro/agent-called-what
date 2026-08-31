@@ -13,7 +13,7 @@
 
 Every other "AI agent ranking" is just a star counter with extra steps. This repo measures the thing that actually matters: **which MCP servers, agent skills, and libraries are being wired up and invoked by real agents in the wild**, inferred from public `mcp.json` configurations and repository dependency graphs.
 
-## 📊 Live snapshot — 2026-08-24
+## 📊 Live snapshot — 2026-08-31
 
 The full dataset updates **every Monday** via GitHub Actions. Latest Top 5:
 
@@ -21,23 +21,23 @@ The full dataset updates **every Monday** via GitHub Actions. Latest Top 5:
 
 | # | Package | `mcp.json` call count | npm downloads/mo | Δ (week) | Score |
 |---|---|---|---|---|---|
-| 1 | `@modelcontextprotocol/server-filesystem` | 3,592 | 2,039,280 | -72 | 7.06 |
-| 2 | `@modelcontextprotocol/server-github` | 2,544 | 511,796 | -20 | 6.60 |
-| 3 | `@modelcontextprotocol/server-memory` | 1,782 | 381,891 | -42 | 6.34 |
-| 4 | `@modelcontextprotocol/server-postgres` | 1,220 | 417,177 | +72 | 6.15 |
-| 5 | `@modelcontextprotocol/server-puppeteer` | 524 | 108,625 | -11 | 5.42 |
+| 1 | `@modelcontextprotocol/server-filesystem` | 132 | 2,334,928 | -3,460 | 5.29 |
+| 2 | `@modelcontextprotocol/server-github` | 107 | 494,746 | -2,437 | 4.86 |
+| 3 | `@modelcontextprotocol/server-postgres` | 103 | 391,142 | -1,117 | 4.79 |
+| 4 | `@modelcontextprotocol/server-memory` | 104 | 364,588 | -1,678 | 4.78 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | 27 | 110,316 | -497 | 3.82 |
 
 **🧠 Agent skills & libraries**
 
 | # | Repo | Dependents | Stars | Δ deps | Score |
 |---|---|---|---|---|---|
-| 1 | `langchain-ai/langchain` | 340,480 | 144,854 | -2,048 | 10.83 |
-| 2 | `langchain-ai/langgraph` | 116,992 | 40,309 | +8,704 | 9.88 |
-| 3 | `microsoft/autogen` | 68,736 | 60,598 | +2,304 | 9.59 |
-| 4 | `agno-agi/agno` | 57,856 | 41,865 | +4,352 | 9.32 |
-| 5 | `crewAIInc/crewAI` | 17,504 | 57,526 | +672 | 9.26 |
+| 1 | `langchain-ai/langchain` | 9,152 | 145,319 | -331,328 | 9.41 |
+| 2 | `langchain-ai/langgraph` | 4,392 | 40,755 | -112,600 | 8.58 |
+| 3 | `agno-agi/agno` | 5,384 | 41,977 | -52,472 | 8.35 |
+| 4 | `microsoft/autogen` | 2,412 | 60,713 | -66,324 | 8.26 |
+| 5 | `run-llama/llama_index` | 1,506 | 51,930 | -8,910 | 8.01 |
 
-**📈 This week's top mover:** `langchain-ai/langgraph` (+8,704 in dependents).
+Trends start appearing from the second weekly update.
 
 Full rankings (Top 30 MCP + all skills): [`data/rankings/latest.json`](data/rankings/latest.json) · [interactive site](https://zensoro.github.io/agent-called-what/)
 
