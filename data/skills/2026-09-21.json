@@ -1,0 +1,178 @@
+[
+  {
+    "repo": "langchain-ai/langchain",
+    "stars": 146772,
+    "forks": 24544,
+    "dependents": 358400,
+    "last_commit": "2026-09-20T18:54:54Z",
+    "delta_stars": 501,
+    "delta_dependents": 3072,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "langchain-ai/langgraph",
+    "stars": 42053,
+    "forks": 7099,
+    "dependents": 126464,
+    "last_commit": "2026-09-20T19:50:34Z",
+    "delta_stars": 448,
+    "delta_dependents": 2304,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "microsoft/autogen",
+    "stars": 61089,
+    "forks": 9240,
+    "dependents": 66432,
+    "last_commit": "2026-04-15T11:59:09Z",
+    "delta_stars": 114,
+    "delta_dependents": 0,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "agno-agi/agno",
+    "stars": 42276,
+    "forks": 5974,
+    "dependents": 61824,
+    "last_commit": "2026-09-21T07:36:37Z",
+    "delta_stars": 117,
+    "delta_dependents": 128,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "crewAIInc/crewAI",
+    "stars": 58843,
+    "forks": 8526,
+    "dependents": 18432,
+    "last_commit": "2026-09-21T05:44:22Z",
+    "delta_stars": 346,
+    "delta_dependents": -64,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "modelcontextprotocol/python-sdk",
+    "stars": 24350,
+    "forks": 3960,
+    "dependents": 11392,
+    "last_commit": "2026-09-19T02:15:45Z",
+    "delta_stars": 62,
+    "delta_dependents": 480,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "run-llama/llama_index",
+    "stars": 52253,
+    "forks": 8183,
+    "dependents": 11312,
+    "last_commit": "2026-09-19T04:27:01Z",
+    "delta_stars": 100,
+    "delta_dependents": 64,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "pydantic/pydantic-ai",
+    "stars": 20082,
+    "forks": 2747,
+    "dependents": 7616,
+    "last_commit": "2026-09-21T06:35:16Z",
+    "delta_stars": 166,
+    "delta_dependents": 48,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "mastra-ai/mastra",
+    "stars": 28227,
+    "forks": 2834,
+    "dependents": 6912,
+    "last_commit": "2026-09-21T07:37:07Z",
+    "delta_stars": 211,
+    "delta_dependents": 528,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "modelcontextprotocol/typescript-sdk",
+    "stars": 13436,
+    "forks": 2200,
+    "dependents": 2332,
+    "last_commit": "2026-09-21T04:08:52Z",
+    "delta_stars": 47,
+    "delta_dependents": -192,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "vercel/ai",
+    "stars": 26868,
+    "forks": 5163,
+    "dependents": 1084,
+    "last_commit": "2026-09-21T06:13:38Z",
+    "delta_stars": 144,
+    "delta_dependents": -40,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "openai/openai-agents-python",
+    "stars": 29594,
+    "forks": 4779,
+    "dependents": 116,
+    "last_commit": "2026-09-21T07:38:09Z",
+    "delta_stars": 180,
+    "delta_dependents": 5,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "langgenius/dify",
+    "stars": 156685,
+    "forks": 24706,
+    "dependents": 94,
+    "last_commit": "2026-09-21T07:34:41Z",
+    "delta_stars": 1035,
+    "delta_dependents": 1,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "anthropics/skills",
+    "stars": 177379,
+    "forks": 21008,
+    "dependents": 1,
+    "last_commit": "2026-09-10T19:44:11Z",
+    "delta_stars": 1194,
+    "delta_dependents": 0,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "cohere-ai/cohere-toolkit",
+    "stars": 3176,
+    "forks": 430,
+    "dependents": 0,
+    "last_commit": "2026-03-31T13:26:56Z",
+    "delta_stars": 2,
+    "delta_dependents": 0,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  },
+  {
+    "repo": "jina-ai/serve",
+    "stars": 21857,
+    "forks": 2240,
+    "dependents": 0,
+    "last_commit": "2025-03-24T13:59:54Z",
+    "delta_stars": -4,
+    "delta_dependents": 0,
+    "is_new": false,
+    "signal": "code-search manifest reference count"
+  }
+]
