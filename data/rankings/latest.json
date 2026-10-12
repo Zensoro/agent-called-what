@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05",
+  "generated_at": "2026-10-12",
   "methodology": {
     "mcp_score": "0.4\u00b7log(1+call_count) + 0.2\u00b7log(1+npm_dl) + 0.15\u00b7log(1+call_proxy)",
     "skill_score": "0.35\u00b7log(1+dependents) + 0.25\u00b7log(1+stars) + 0.2\u00b7log(1+\u0394stars) + 0.2\u00b7log(1+forks)",
@@ -12,133 +12,133 @@
         "package": "@modelcontextprotocol/server-filesystem",
         "registry": "npm",
         "category": "filesystem",
-        "call_count": 4032,
-        "npm_monthly_dl": 2693186,
-        "weekly_delta": 88,
+        "call_count": 3960,
+        "npm_monthly_dl": 2504332,
+        "weekly_delta": -72,
         "is_new": false,
         "rank": 1,
-        "score": 7.182
+        "score": 7.158
       },
       {
         "package": "@modelcontextprotocol/server-github",
         "registry": "npm",
         "category": "devops",
-        "call_count": 2648,
-        "npm_monthly_dl": 498844,
-        "weekly_delta": 56,
+        "call_count": 2608,
+        "npm_monthly_dl": 509440,
+        "weekly_delta": -40,
         "is_new": false,
         "rank": 2,
-        "score": 6.614
+        "score": 6.61
       },
       {
         "package": "@modelcontextprotocol/server-memory",
         "registry": "npm",
         "category": "memory",
-        "call_count": 1828,
-        "npm_monthly_dl": 608886,
-        "weekly_delta": 10,
+        "call_count": 1820,
+        "npm_monthly_dl": 658373,
+        "weekly_delta": -8,
         "is_new": false,
         "rank": 3,
-        "score": 6.45
+        "score": 6.464
       },
       {
         "package": "@modelcontextprotocol/server-postgres",
         "registry": "npm",
         "category": "database",
-        "call_count": 1262,
-        "npm_monthly_dl": 417018,
-        "weekly_delta": -16,
+        "call_count": 1252,
+        "npm_monthly_dl": 443545,
+        "weekly_delta": -10,
         "is_new": false,
         "rank": 4,
-        "score": 6.171
+        "score": 6.179
       },
       {
         "package": "@modelcontextprotocol/server-puppeteer",
         "registry": "npm",
         "category": "web",
-        "call_count": 573,
-        "npm_monthly_dl": 133380,
-        "weekly_delta": 24,
+        "call_count": 585,
+        "npm_monthly_dl": 132086,
+        "weekly_delta": 12,
         "is_new": false,
         "rank": 5,
-        "score": 5.51
+        "score": 5.519
       },
       {
         "package": "@modelcontextprotocol/server-brave-search",
         "registry": "npm",
         "category": "search",
-        "call_count": 449,
-        "npm_monthly_dl": 98992,
-        "weekly_delta": 1,
+        "call_count": 451,
+        "npm_monthly_dl": 110070,
+        "weekly_delta": 2,
         "is_new": false,
         "rank": 6,
-        "score": 5.315
+        "score": 5.342
       },
       {
         "package": "@modelcontextprotocol/server-slack",
         "registry": "npm",
         "category": "communication",
-        "call_count": 220,
-        "npm_monthly_dl": 457047,
-        "weekly_delta": 0,
+        "call_count": 217,
+        "npm_monthly_dl": 455970,
+        "weekly_delta": -3,
         "is_new": false,
         "rank": 7,
-        "score": 5.236
+        "score": 5.223
       },
       {
         "package": "@modelcontextprotocol/server-git",
         "registry": "npm",
         "category": "devops",
-        "call_count": 2780,
+        "call_count": 2732,
         "npm_monthly_dl": 0,
-        "weekly_delta": 72,
+        "weekly_delta": -48,
         "is_new": false,
         "rank": 8,
-        "score": 4.017
+        "score": 4.007
       },
       {
         "package": "@modelcontextprotocol/server-google-maps",
         "registry": "npm",
         "category": "web",
         "call_count": 36,
-        "npm_monthly_dl": 33902,
+        "npm_monthly_dl": 33796,
         "weekly_delta": 0,
         "is_new": false,
         "rank": 9,
-        "score": 3.739
+        "score": 3.738
       },
       {
         "package": "@modelcontextprotocol/server-fetch",
         "registry": "npm",
         "category": "web",
-        "call_count": 431,
+        "call_count": 425,
         "npm_monthly_dl": 0,
-        "weekly_delta": 2,
+        "weekly_delta": -6,
         "is_new": false,
         "rank": 10,
-        "score": 2.995
+        "score": 2.986
       },
       {
         "package": "mcp-server-sqlite",
         "registry": "pypi",
         "category": "database",
-        "call_count": 262,
+        "call_count": 269,
         "npm_monthly_dl": 0,
-        "weekly_delta": 8,
+        "weekly_delta": 7,
         "is_new": false,
         "rank": 11,
-        "score": 2.723
+        "score": 2.734
       },
       {
         "package": "@modelcontextprotocol/server-sqlite",
         "registry": "npm",
         "category": "database",
-        "call_count": 171,
+        "call_count": 169,
         "npm_monthly_dl": 0,
-        "weekly_delta": -1,
+        "weekly_delta": -2,
         "is_new": false,
         "rank": 12,
-        "score": 2.493
+        "score": 2.479
       },
       {
         "package": "mcp-server-docker",
@@ -146,7 +146,7 @@
         "category": "devops",
         "call_count": 110,
         "npm_monthly_dl": 0,
-        "weekly_delta": 8,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 13,
         "score": 2.257
@@ -155,23 +155,23 @@
         "package": "mcp-server-postgres",
         "registry": "pypi",
         "category": "database",
-        "call_count": 94,
+        "call_count": 93,
         "npm_monthly_dl": 0,
-        "weekly_delta": 4,
+        "weekly_delta": -1,
         "is_new": false,
         "rank": 14,
-        "score": 2.167
+        "score": 2.163
       },
       {
         "package": "mcp-server-kubernetes",
         "registry": "pypi",
         "category": "devops",
-        "call_count": 79,
+        "call_count": 80,
         "npm_monthly_dl": 0,
         "weekly_delta": 1,
         "is_new": false,
         "rank": 15,
-        "score": 2.065
+        "score": 2.087
       },
       {
         "package": "mcp-server-google-drive",
@@ -190,7 +190,7 @@
         "category": "cloud",
         "call_count": 61,
         "npm_monthly_dl": 0,
-        "weekly_delta": 2,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 17,
         "score": 1.943
@@ -210,12 +210,12 @@
         "package": "mem0-mcp",
         "registry": "pypi",
         "category": "memory",
-        "call_count": 36,
+        "call_count": 37,
         "npm_monthly_dl": 0,
-        "weekly_delta": 0,
+        "weekly_delta": 1,
         "is_new": false,
         "rank": 19,
-        "score": 1.652
+        "score": 1.663
       },
       {
         "package": "@anthropic-ai/mcp-server-filesystem",
@@ -223,7 +223,7 @@
         "category": "filesystem",
         "call_count": 34,
         "npm_monthly_dl": 0,
-        "weekly_delta": -1,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 20,
         "score": 1.63
@@ -234,21 +234,10 @@
         "category": "observability",
         "call_count": 23,
         "npm_monthly_dl": 0,
-        "weekly_delta": -1,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 21,
         "score": 1.436
-      },
-      {
-        "package": "mcp-server-redis",
-        "registry": "pypi",
-        "category": "database",
-        "call_count": 20,
-        "npm_monthly_dl": 0,
-        "weekly_delta": 0,
-        "is_new": false,
-        "rank": 22,
-        "score": 1.383
       },
       {
         "package": "mcp-server-aws",
@@ -258,8 +247,30 @@
         "npm_monthly_dl": 0,
         "weekly_delta": 0,
         "is_new": false,
+        "rank": 22,
+        "score": 1.302
+      },
+      {
+        "package": "mcp-server-calendar",
+        "registry": "pypi",
+        "category": "productivity",
+        "call_count": 19,
+        "npm_monthly_dl": 0,
+        "weekly_delta": 3,
+        "is_new": false,
         "rank": 23,
         "score": 1.302
+      },
+      {
+        "package": "mcp-server-redis",
+        "registry": "pypi",
+        "category": "database",
+        "call_count": 18,
+        "npm_monthly_dl": 0,
+        "weekly_delta": -2,
+        "is_new": false,
+        "rank": 24,
+        "score": 1.282
       },
       {
         "package": "mcp-server-notion",
@@ -267,21 +278,10 @@
         "category": "productivity",
         "call_count": 17,
         "npm_monthly_dl": 0,
-        "weekly_delta": -1,
-        "is_new": false,
-        "rank": 24,
-        "score": 1.26
-      },
-      {
-        "package": "mcp-server-calendar",
-        "registry": "pypi",
-        "category": "productivity",
-        "call_count": 16,
-        "npm_monthly_dl": 0,
-        "weekly_delta": 2,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 25,
-        "score": 1.237
+        "score": 1.26
       },
       {
         "package": "mcp-server-jira",
@@ -300,7 +300,7 @@
         "category": "web",
         "call_count": 14,
         "npm_monthly_dl": 0,
-        "weekly_delta": 2,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 27,
         "score": 1.187
@@ -322,7 +322,7 @@
         "category": "devops",
         "call_count": 12,
         "npm_monthly_dl": 0,
-        "weekly_delta": -1,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 29,
         "score": 1.13
@@ -333,7 +333,7 @@
         "category": "productivity",
         "call_count": 7,
         "npm_monthly_dl": 0,
-        "weekly_delta": -1,
+        "weekly_delta": 0,
         "is_new": false,
         "rank": 30,
         "score": 0.832
@@ -342,198 +342,198 @@
     "agent_skills": [
       {
         "repo": "langchain-ai/langchain",
-        "stars": 147454,
-        "forks": 24708,
-        "dependents": 374784,
-        "last_commit": "2026-10-04T21:21:21Z",
-        "delta_stars": 269,
-        "delta_dependents": 12288,
+        "stars": 147660,
+        "forks": 24764,
+        "dependents": 381952,
+        "last_commit": "2026-10-12T00:41:04Z",
+        "delta_stars": 206,
+        "delta_dependents": 7168,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 1,
-        "score": 10.61
+        "score": 10.564
       },
       {
         "repo": "langchain-ai/langgraph",
-        "stars": 42728,
-        "forks": 7262,
-        "dependents": 136704,
-        "last_commit": "2026-10-04T01:25:16Z",
-        "delta_stars": 336,
-        "delta_dependents": 2048,
+        "stars": 43107,
+        "forks": 7329,
+        "dependents": 142080,
+        "last_commit": "2026-10-12T02:54:17Z",
+        "delta_stars": 379,
+        "delta_dependents": 5376,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 2,
-        "score": 9.747
-      },
-      {
-        "repo": "agno-agi/agno",
-        "stars": 42557,
-        "forks": 6100,
-        "dependents": 72960,
-        "last_commit": "2026-10-05T08:07:23Z",
-        "delta_stars": 197,
-        "delta_dependents": 7552,
-        "is_new": false,
-        "signal": "code-search manifest reference count",
-        "rank": 3,
-        "score": 9.385
+        "score": 9.788
       },
       {
         "repo": "microsoft/autogen",
-        "stars": 61263,
-        "forks": 9279,
-        "dependents": 66944,
+        "stars": 61371,
+        "forks": 9281,
+        "dependents": 68736,
         "last_commit": "2026-04-15T11:59:09Z",
-        "delta_stars": 67,
-        "delta_dependents": 256,
+        "delta_stars": 108,
+        "delta_dependents": 1792,
+        "is_new": false,
+        "signal": "code-search manifest reference count",
+        "rank": 3,
+        "score": 9.42
+      },
+      {
+        "repo": "agno-agi/agno",
+        "stars": 42682,
+        "forks": 6120,
+        "dependents": 71552,
+        "last_commit": "2026-10-12T08:16:08Z",
+        "delta_stars": 125,
+        "delta_dependents": -1408,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 4,
-        "score": 9.316
+        "score": 9.289
       },
       {
         "repo": "crewAIInc/crewAI",
-        "stars": 59354,
-        "forks": 8647,
-        "dependents": 18560,
-        "last_commit": "2026-10-03T00:03:55Z",
-        "delta_stars": 231,
-        "delta_dependents": -256,
+        "stars": 59592,
+        "forks": 8698,
+        "dependents": 18816,
+        "last_commit": "2026-10-12T08:21:50Z",
+        "delta_stars": 238,
+        "delta_dependents": 256,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 5,
-        "score": 9.09
+        "score": 9.103
       },
       {
         "repo": "run-llama/llama_index",
-        "stars": 52411,
-        "forks": 8280,
-        "dependents": 11312,
-        "last_commit": "2026-10-01T18:39:47Z",
-        "delta_stars": 78,
+        "stars": 52468,
+        "forks": 8323,
+        "dependents": 11248,
+        "last_commit": "2026-10-08T20:45:50Z",
+        "delta_stars": 57,
         "delta_dependents": -64,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 6,
-        "score": 8.662
+        "score": 8.599
       },
       {
         "repo": "modelcontextprotocol/python-sdk",
-        "stars": 24487,
-        "forks": 4013,
-        "dependents": 11712,
-        "last_commit": "2026-10-02T22:02:27Z",
-        "delta_stars": 66,
-        "delta_dependents": 448,
+        "stars": 24549,
+        "forks": 4031,
+        "dependents": 11584,
+        "last_commit": "2026-10-11T14:58:13Z",
+        "delta_stars": 62,
+        "delta_dependents": -128,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 7,
-        "score": 8.306
+        "score": 8.291
       },
       {
         "repo": "mastra-ai/mastra",
-        "stars": 28561,
-        "forks": 2915,
-        "dependents": 6880,
-        "last_commit": "2026-10-05T08:09:23Z",
-        "delta_stars": 183,
-        "delta_dependents": 256,
+        "stars": 28728,
+        "forks": 2960,
+        "dependents": 6448,
+        "last_commit": "2026-10-12T08:29:01Z",
+        "delta_stars": 167,
+        "delta_dependents": -432,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 8,
-        "score": 8.296
+        "score": 8.26
       },
       {
         "repo": "pydantic/pydantic-ai",
-        "stars": 20412,
-        "forks": 2863,
-        "dependents": 8208,
-        "last_commit": "2026-10-05T07:37:54Z",
-        "delta_stars": 186,
-        "delta_dependents": 16,
+        "stars": 20566,
+        "forks": 2905,
+        "dependents": 8336,
+        "last_commit": "2026-10-12T06:56:42Z",
+        "delta_stars": 154,
+        "delta_dependents": 128,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 9,
-        "score": 8.274
+        "score": 8.246
       },
       {
         "repo": "langgenius/dify",
-        "stars": 157865,
-        "forks": 24910,
-        "dependents": 94,
-        "last_commit": "2026-10-05T06:37:53Z",
-        "delta_stars": 488,
-        "delta_dependents": -1,
+        "stars": 158212,
+        "forks": 25008,
+        "dependents": 96,
+        "last_commit": "2026-10-12T08:26:33Z",
+        "delta_stars": 347,
+        "delta_dependents": 2,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 10,
-        "score": 7.849
+        "score": 7.79
       },
       {
         "repo": "vercel/ai",
-        "stars": 27125,
-        "forks": 5258,
-        "dependents": 992,
-        "last_commit": "2026-10-05T08:04:47Z",
-        "delta_stars": 122,
-        "delta_dependents": -112,
+        "stars": 27263,
+        "forks": 5306,
+        "dependents": 773,
+        "last_commit": "2026-10-12T06:50:32Z",
+        "delta_stars": 138,
+        "delta_dependents": -219,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 11,
-        "score": 7.643
+        "score": 7.584
       },
       {
         "repo": "modelcontextprotocol/typescript-sdk",
-        "stars": 13519,
-        "forks": 2255,
-        "dependents": 2544,
-        "last_commit": "2026-10-02T19:24:26Z",
-        "delta_stars": 40,
-        "delta_dependents": 172,
+        "stars": 13557,
+        "forks": 2278,
+        "dependents": 2532,
+        "last_commit": "2026-10-08T23:17:50Z",
+        "delta_stars": 38,
+        "delta_dependents": -12,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 12,
-        "score": 7.41
+        "score": 7.401
       },
       {
-        "repo": "anthropics/skills",
-        "stars": 179697,
-        "forks": 21251,
-        "dependents": 3,
-        "last_commit": "2026-10-03T20:38:10Z",
-        "delta_stars": 986,
+        "repo": "openai/openai-agents-python",
+        "stars": 29982,
+        "forks": 4868,
+        "dependents": 120,
+        "last_commit": "2026-10-08T19:41:57Z",
+        "delta_stars": 144,
         "delta_dependents": 0,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 13,
-        "score": 6.882
+        "score": 6.949
       },
       {
-        "repo": "openai/openai-agents-python",
-        "stars": 29838,
-        "forks": 4847,
-        "dependents": 120,
-        "last_commit": "2026-10-05T05:05:55Z",
-        "delta_stars": 103,
-        "delta_dependents": 4,
+        "repo": "anthropics/skills",
+        "stars": 180599,
+        "forks": 21407,
+        "dependents": 3,
+        "last_commit": "2026-10-09T18:45:52Z",
+        "delta_stars": 902,
+        "delta_dependents": 0,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 14,
-        "score": 6.881
+        "score": 6.867
       },
       {
         "repo": "jina-ai/serve",
-        "stars": 21864,
-        "forks": 2241,
+        "stars": 21856,
+        "forks": 2240,
         "dependents": 0,
         "last_commit": "2025-03-24T13:59:54Z",
-        "delta_stars": 1,
+        "delta_stars": -8,
         "delta_dependents": 0,
         "is_new": false,
         "signal": "code-search manifest reference count",
         "rank": 15,
-        "score": 4.18
+        "score": 4.041
       },
       {
         "repo": "cohere-ai/cohere-toolkit",
@@ -541,7 +541,7 @@
         "forks": 431,
         "dependents": 0,
         "last_commit": "2026-03-31T13:26:56Z",
-        "delta_stars": -2,
+        "delta_stars": 0,
         "delta_dependents": 0,
         "is_new": false,
         "signal": "code-search manifest reference count",
@@ -556,163 +556,163 @@
         "table": "agent_skills",
         "name": "langchain-ai/langchain",
         "field": "dependents",
-        "delta": 12288,
-        "current": 374784,
+        "delta": 7168,
+        "current": 381952,
         "rank": 1
-      },
-      {
-        "table": "agent_skills",
-        "name": "agno-agi/agno",
-        "field": "dependents",
-        "delta": 7552,
-        "current": 72960,
-        "rank": 3
       },
       {
         "table": "agent_skills",
         "name": "langchain-ai/langgraph",
         "field": "dependents",
-        "delta": 2048,
-        "current": 136704,
+        "delta": 5376,
+        "current": 142080,
         "rank": 2
-      },
-      {
-        "table": "agent_skills",
-        "name": "modelcontextprotocol/python-sdk",
-        "field": "dependents",
-        "delta": 448,
-        "current": 11712,
-        "rank": 7
       },
       {
         "table": "agent_skills",
         "name": "microsoft/autogen",
         "field": "dependents",
+        "delta": 1792,
+        "current": 68736,
+        "rank": 3
+      },
+      {
+        "table": "agent_skills",
+        "name": "crewAIInc/crewAI",
+        "field": "dependents",
         "delta": 256,
-        "current": 66944,
+        "current": 18816,
+        "rank": 5
+      },
+      {
+        "table": "agent_skills",
+        "name": "pydantic/pydantic-ai",
+        "field": "dependents",
+        "delta": 128,
+        "current": 8336,
+        "rank": 9
+      },
+      {
+        "table": "mcp_servers",
+        "name": "@modelcontextprotocol/server-puppeteer",
+        "field": "call_count",
+        "delta": 12,
+        "current": 585,
+        "rank": 5
+      },
+      {
+        "table": "mcp_servers",
+        "name": "mcp-server-sqlite",
+        "field": "call_count",
+        "delta": 7,
+        "current": 269,
+        "rank": 11
+      },
+      {
+        "table": "mcp_servers",
+        "name": "mcp-server-calendar",
+        "field": "call_count",
+        "delta": 3,
+        "current": 19,
+        "rank": 23
+      },
+      {
+        "table": "mcp_servers",
+        "name": "@modelcontextprotocol/server-brave-search",
+        "field": "call_count",
+        "delta": 2,
+        "current": 451,
+        "rank": 6
+      },
+      {
+        "table": "agent_skills",
+        "name": "langgenius/dify",
+        "field": "dependents",
+        "delta": 2,
+        "current": 96,
+        "rank": 10
+      }
+    ],
+    "declining": [
+      {
+        "table": "agent_skills",
+        "name": "agno-agi/agno",
+        "field": "dependents",
+        "delta": -1408,
+        "current": 71552,
         "rank": 4
       },
       {
         "table": "agent_skills",
         "name": "mastra-ai/mastra",
         "field": "dependents",
-        "delta": 256,
-        "current": 6880,
+        "delta": -432,
+        "current": 6448,
         "rank": 8
-      },
-      {
-        "table": "agent_skills",
-        "name": "modelcontextprotocol/typescript-sdk",
-        "field": "dependents",
-        "delta": 172,
-        "current": 2544,
-        "rank": 12
-      },
-      {
-        "table": "mcp_servers",
-        "name": "@modelcontextprotocol/server-filesystem",
-        "field": "call_count",
-        "delta": 88,
-        "current": 4032,
-        "rank": 1
-      },
-      {
-        "table": "mcp_servers",
-        "name": "@modelcontextprotocol/server-git",
-        "field": "call_count",
-        "delta": 72,
-        "current": 2780,
-        "rank": 8
-      },
-      {
-        "table": "mcp_servers",
-        "name": "@modelcontextprotocol/server-github",
-        "field": "call_count",
-        "delta": 56,
-        "current": 2648,
-        "rank": 2
-      }
-    ],
-    "declining": [
-      {
-        "table": "agent_skills",
-        "name": "crewAIInc/crewAI",
-        "field": "dependents",
-        "delta": -256,
-        "current": 18560,
-        "rank": 5
       },
       {
         "table": "agent_skills",
         "name": "vercel/ai",
         "field": "dependents",
-        "delta": -112,
-        "current": 992,
+        "delta": -219,
+        "current": 773,
         "rank": 11
+      },
+      {
+        "table": "agent_skills",
+        "name": "modelcontextprotocol/python-sdk",
+        "field": "dependents",
+        "delta": -128,
+        "current": 11584,
+        "rank": 7
+      },
+      {
+        "table": "mcp_servers",
+        "name": "@modelcontextprotocol/server-filesystem",
+        "field": "call_count",
+        "delta": -72,
+        "current": 3960,
+        "rank": 1
       },
       {
         "table": "agent_skills",
         "name": "run-llama/llama_index",
         "field": "dependents",
         "delta": -64,
-        "current": 11312,
+        "current": 11248,
         "rank": 6
+      },
+      {
+        "table": "mcp_servers",
+        "name": "@modelcontextprotocol/server-git",
+        "field": "call_count",
+        "delta": -48,
+        "current": 2732,
+        "rank": 8
+      },
+      {
+        "table": "mcp_servers",
+        "name": "@modelcontextprotocol/server-github",
+        "field": "call_count",
+        "delta": -40,
+        "current": 2608,
+        "rank": 2
+      },
+      {
+        "table": "agent_skills",
+        "name": "modelcontextprotocol/typescript-sdk",
+        "field": "dependents",
+        "delta": -12,
+        "current": 2532,
+        "rank": 12
       },
       {
         "table": "mcp_servers",
         "name": "@modelcontextprotocol/server-postgres",
         "field": "call_count",
-        "delta": -16,
-        "current": 1262,
+        "delta": -10,
+        "current": 1252,
         "rank": 4
-      },
-      {
-        "table": "mcp_servers",
-        "name": "@modelcontextprotocol/server-sqlite",
-        "field": "call_count",
-        "delta": -1,
-        "current": 171,
-        "rank": 12
-      },
-      {
-        "table": "mcp_servers",
-        "name": "@anthropic-ai/mcp-server-filesystem",
-        "field": "call_count",
-        "delta": -1,
-        "current": 34,
-        "rank": 20
-      },
-      {
-        "table": "mcp_servers",
-        "name": "mcp-server-sentry",
-        "field": "call_count",
-        "delta": -1,
-        "current": 23,
-        "rank": 21
-      },
-      {
-        "table": "mcp_servers",
-        "name": "mcp-server-notion",
-        "field": "call_count",
-        "delta": -1,
-        "current": 17,
-        "rank": 24
-      },
-      {
-        "table": "mcp_servers",
-        "name": "@anthropic-ai/mcp-server-github",
-        "field": "call_count",
-        "delta": -1,
-        "current": 12,
-        "rank": 29
-      },
-      {
-        "table": "mcp_servers",
-        "name": "mcp-server-linear",
-        "field": "call_count",
-        "delta": -1,
-        "current": 7,
-        "rank": 30
       }
     ],
     "newcomers": []
