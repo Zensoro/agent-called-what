@@ -9,7 +9,7 @@
 
 市面上所有"AI Agent 排行榜"本质都是 star 计数器套壳。本仓库衡量的是真正重要的事：**真实的 AI Agent 在野外实际接入、调用了哪些 MCP Server、Skill 和库**——证据来自公开的 `mcp.json` 配置文件和仓库依赖图。
 
-## 📊 最新快照 — 2026-10-19
+## 📊 最新快照 — 2026-10-26
 
 数据集每周一由 GitHub Actions 自动更新。当前 Top 5：
 
@@ -17,23 +17,23 @@
 
 | # | 包 | `mcp.json` 引用数 | npm 月下载 | Δ（周） | 得分 |
 |---|---|---|---|---|---|
-| 1 | `@modelcontextprotocol/server-filesystem` | 3,816 | 2,316,394 | -144 | 7.12 |
-| 2 | `@modelcontextprotocol/server-github` | 2,640 | 467,822 | +32 | 6.60 |
-| 3 | `@modelcontextprotocol/server-memory` | 1,808 | 679,976 | -12 | 6.47 |
-| 4 | `@modelcontextprotocol/server-postgres` | 1,232 | 447,796 | -20 | 6.17 |
-| 5 | `@modelcontextprotocol/server-puppeteer` | 567 | 122,340 | -18 | 5.49 |
+| 1 | `@modelcontextprotocol/server-filesystem` | 3,816 | 2,030,938 | 0 | 7.10 |
+| 2 | `@modelcontextprotocol/server-github` | 2,624 | 408,215 | -16 | 6.57 |
+| 3 | `@modelcontextprotocol/server-memory` | 1,856 | 631,205 | +48 | 6.47 |
+| 4 | `@modelcontextprotocol/server-postgres` | 1,256 | 418,670 | +24 | 6.17 |
+| 5 | `@modelcontextprotocol/server-puppeteer` | 571 | 99,329 | +4 | 5.45 |
 
 **🧠 Agent Skill 与库**
 
 | # | 仓库 | 依赖数 | Star | Δ 依赖 | 得分 |
 |---|---|---|---|---|---|
-| 1 | `langchain-ai/langchain` | 375,808 | 148,055 | -6,144 | 10.69 |
-| 2 | `langchain-ai/langgraph` | 133,632 | 43,487 | -8,448 | 9.77 |
-| 3 | `microsoft/autogen` | 71,296 | 61,475 | +2,560 | 9.43 |
-| 4 | `agno-agi/agno` | 73,984 | 42,805 | +2,432 | 9.30 |
-| 5 | `crewAIInc/crewAI` | 18,880 | 59,856 | +64 | 9.13 |
+| 1 | `langchain-ai/langchain` | 387,072 | 148,473 | +11,264 | 10.71 |
+| 2 | `langchain-ai/langgraph` | 136,704 | 43,906 | +3,072 | 9.80 |
+| 3 | `microsoft/autogen` | 72,192 | 61,567 | +896 | 9.41 |
+| 4 | `agno-agi/agno` | 71,040 | 42,891 | -2,944 | 9.22 |
+| 5 | `crewAIInc/crewAI` | 19,328 | 60,109 | +448 | 9.13 |
 
-**📈 本周涨幅最高：** `microsoft/autogen`（dependents +2,560）。
+**📈 本周涨幅最高：** `langchain-ai/langchain`（dependents +11,264）。
 
 完整榜单（MCP Top 30 + 全部 Skill）：[`data/rankings/latest.json`](data/rankings/latest.json) · [在线站点](https://zensoro.github.io/agent-called-what/)
 
