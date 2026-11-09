@@ -4,7 +4,7 @@ title: Weekly Trends
 
 # 📈 Weekly Trends
 
-_Updated: 2026-11-02_
+_Updated: 2026-11-09_
 
 How the agent ecosystem moved this week. Deltas are week-over-week changes in the behavioral signals (mcp call count / skill dependents).
 
@@ -12,31 +12,31 @@ How the agent ecosystem moved this week. Deltas are week-over-week changes in th
 
 | # | Table | Name | Δ | Current | Rank |
 |---|---|---|---|---|---|
-| 1 | agent_skills | [microsoft/autogen](https://github.com/microsoft/autogen) | +9,344 | 81,536 | 3 |
-| 2 | agent_skills | [agno-agi/agno](https://github.com/agno-agi/agno) | +2,560 | 73,600 | 4 |
-| 3 | agent_skills | [run-llama/llama_index](https://github.com/run-llama/llama_index) | +1,872 | 13,104 | 6 |
-| 4 | agent_skills | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | +1,024 | 9,280 | 9 |
-| 5 | agent_skills | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | +832 | 12,384 | 8 |
-| 6 | agent_skills | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | +488 | 7,400 | 7 |
-| 7 | mcp_servers | `@modelcontextprotocol/server-github` | +332 | 2,956 | 2 |
-| 8 | mcp_servers | `@modelcontextprotocol/server-git` | +260 | 3,016 | 8 |
-| 9 | agent_skills | [vercel/ai](https://github.com/vercel/ai) | +140 | 930 | 11 |
-| 10 | mcp_servers | `@modelcontextprotocol/server-brave-search` | +44 | 492 | 6 |
+| 1 | agent_skills | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | +8,192 | 387,584 | 1 |
+| 2 | agent_skills | [agno-agi/agno](https://github.com/agno-agi/agno) | +6,528 | 80,128 | 4 |
+| 3 | agent_skills | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | +4,096 | 137,216 | 2 |
+| 4 | agent_skills | [microsoft/autogen](https://github.com/microsoft/autogen) | +3,584 | 85,120 | 3 |
+| 5 | agent_skills | [run-llama/llama_index](https://github.com/run-llama/llama_index) | +512 | 13,616 | 6 |
+| 6 | agent_skills | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | +352 | 9,632 | 9 |
+| 7 | agent_skills | [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | +276 | 2,828 | 12 |
+| 8 | mcp_servers | `@modelcontextprotocol/server-git` | +64 | 3,080 | 8 |
+| 9 | mcp_servers | `@modelcontextprotocol/server-github` | +64 | 3,020 | 2 |
+| 10 | mcp_servers | `@modelcontextprotocol/server-postgres` | +56 | 1,280 | 4 |
 
 ## 📉 Declining this week
 
 | # | Table | Name | Δ | Current | Rank |
 |---|---|---|---|---|---|
-| 1 | agent_skills | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | -7,680 | 379,392 | 1 |
-| 2 | agent_skills | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | -3,584 | 133,120 | 2 |
-| 3 | agent_skills | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | -544 | 18,784 | 5 |
-| 4 | mcp_servers | `@modelcontextprotocol/server-memory` | -130 | 1,726 | 3 |
-| 5 | mcp_servers | `@modelcontextprotocol/server-fetch` | -68 | 369 | 10 |
-| 6 | mcp_servers | `@modelcontextprotocol/server-postgres` | -32 | 1,224 | 4 |
-| 7 | mcp_servers | `@modelcontextprotocol/server-puppeteer` | -28 | 543 | 5 |
-| 8 | mcp_servers | `@modelcontextprotocol/server-filesystem` | -16 | 3,800 | 1 |
-| 9 | mcp_servers | `@modelcontextprotocol/server-slack` | -10 | 215 | 7 |
-| 10 | mcp_servers | `mcp-server-sqlite` | -6 | 265 | 11 |
+| 1 | agent_skills | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | -480 | 11,904 | 7 |
+| 2 | agent_skills | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | -320 | 18,464 | 5 |
+| 3 | mcp_servers | `@modelcontextprotocol/server-filesystem` | -144 | 3,656 | 1 |
+| 4 | agent_skills | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | -40 | 7,360 | 8 |
+| 5 | mcp_servers | `@modelcontextprotocol/server-slack` | -6 | 209 | 7 |
+| 6 | agent_skills | [vercel/ai](https://github.com/vercel/ai) | -2 | 928 | 11 |
+| 7 | mcp_servers | `@modelcontextprotocol/server-brave-search` | -1 | 491 | 6 |
+| 8 | mcp_servers | `mcp-server-replicate` | -1 | 64 | 17 |
+| 9 | mcp_servers | `mcp-server-azure` | -1 | 61 | 18 |
+| 10 | mcp_servers | `mcp-server-linear` | -1 | 7 | 30 |
 
 ---
 

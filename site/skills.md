@@ -4,7 +4,7 @@ title: Agent Skills & Libraries Ranking
 
 # 🧩 Agent Skills & Libraries — Behavior-Based Ranking
 
-_Updated: 2026-11-02_
+_Updated: 2026-11-09_
 
 ## How to read this table
 
@@ -19,22 +19,22 @@ _Updated: 2026-11-02_
 
 | # | Repo | Used-By | Stars | Forks | Δ Stars | Score |
 |---|---|---|---|---|---|---|
-| 1 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 379,392 | 148,868 | 25,023 | +395 | 10.696 |
-| 2 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 133,120 | 44,314 | 7,621 | +408 | 9.795 |
-| 3 | [microsoft/autogen](https://github.com/microsoft/autogen) | 81,536 | 61,670 | 9,349 | +103 | 9.473 |
-| 4 | [agno-agi/agno](https://github.com/agno-agi/agno) | 73,600 | 43,011 | 6,224 | +120 | 9.296 |
-| 5 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 18,784 | 60,410 | 8,999 | +301 | 9.160 |
-| 6 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 13,104 | 52,779 | 8,496 | +111 | 8.790 |
-| 7 | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 7,400 | 29,273 | 3,066 | +196 | 8.352 |
-| 8 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | 12,384 | 24,736 | 4,094 | +70 | 8.344 |
-| 9 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 9,280 | 20,994 | 3,079 | +119 | 8.250 |
-| 10 | [langgenius/dify](https://github.com/langgenius/dify) | 109 | 160,211 | 25,328 | +643 | 7.963 |
-| 11 | [vercel/ai](https://github.com/vercel/ai) | 930 | 27,691 | 5,501 | +177 | 7.709 |
-| 12 | [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | 2,552 | 13,694 | 2,366 | +42 | 7.433 |
-| 13 | [anthropics/skills](https://github.com/anthropics/skills) | 2 | 186,516 | 22,032 | +2,686 | 6.998 |
-| 14 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 119 | 30,451 | 4,974 | +162 | 6.978 |
-| 15 | [jina-ai/serve](https://github.com/jina-ai/serve) | 0 | 21,851 | 2,237 | -2 | 4.041 |
-| 16 | [cohere-ai/cohere-toolkit](https://github.com/cohere-ai/cohere-toolkit) | 0 | 3,171 | 431 | +1 | 3.368 |
+| 1 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 387,584 | 149,251 | 25,099 | +383 | 10.698 |
+| 2 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 137,216 | 44,681 | 7,699 | +367 | 9.789 |
+| 3 | [microsoft/autogen](https://github.com/microsoft/autogen) | 85,120 | 61,756 | 9,393 | +86 | 9.454 |
+| 4 | [agno-agi/agno](https://github.com/agno-agi/agno) | 80,128 | 43,112 | 6,266 | +101 | 9.293 |
+| 5 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 18,464 | 60,677 | 9,117 | +267 | 9.133 |
+| 6 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 13,616 | 52,854 | 8,532 | +75 | 8.727 |
+| 7 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | 11,904 | 24,804 | 4,116 | +68 | 8.326 |
+| 8 | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 7,360 | 29,425 | 3,086 | +152 | 8.302 |
+| 9 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 9,632 | 21,099 | 3,136 | +105 | 8.243 |
+| 10 | [langgenius/dify](https://github.com/langgenius/dify) | 113 | 160,732 | 25,426 | +521 | 7.935 |
+| 11 | [vercel/ai](https://github.com/vercel/ai) | 928 | 27,827 | 5,562 | +136 | 7.659 |
+| 12 | [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | 2,828 | 13,734 | 2,375 | +40 | 7.461 |
+| 13 | [anthropics/skills](https://github.com/anthropics/skills) | 2 | 190,002 | 22,385 | +3,486 | 7.058 |
+| 14 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 119 | 30,569 | 5,020 | +118 | 6.918 |
+| 15 | [jina-ai/serve](https://github.com/jina-ai/serve) | 0 | 21,850 | 2,237 | -1 | 4.041 |
+| 16 | [cohere-ai/cohere-toolkit](https://github.com/cohere-ai/cohere-toolkit) | 0 | 3,170 | 430 | -1 | 3.229 |
 
 ---
 
